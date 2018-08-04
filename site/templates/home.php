@@ -15,7 +15,7 @@
     <hr />
 
     <div class="wrap-lg">
-        <?= $page->text()->kirbytext() ?>        
+        <?= $page->text()->kirbytext() ?>
     </div>
     <?php endif; ?>
 

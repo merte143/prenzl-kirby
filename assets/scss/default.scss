@@ -255,7 +255,7 @@ body.navstandard .offcanvas {
 			margin-top: 0;
 			position: relative;
 			top: 2px;
-			padding: 0 0 0 $sp3;
+			padding: 0 0 0 36px;
 
 			// Clickable Anchor
 			// ------------------------------
@@ -263,7 +263,7 @@ body.navstandard .offcanvas {
 				color: $c2 !important;
 				float: left;
 				padding: 0;
-				font-size: $fs5;
+				font-size: $fs4;
 				font-weight: normal;
 				border-bottom-color: transparent;
 				&.active {
@@ -374,12 +374,13 @@ body.navstandard .offcanvas {
 	z-index: 99;
 	width: 100%;
 	margin: 0;
-	padding: $sp1/2 0 0 0;
+	padding: $sp1/2 0 $sp1/4 0;
 	font-size: $fs5;
 	color: $c1;
 	display: flex;
 	align-items: center;
-	align-content: center;
+  align-content: center;
+  border-bottom: 1px solid #eee;
 
 	.logo {
 		float: left;
@@ -397,9 +398,8 @@ body.navstandard .offcanvas {
 		img {
 			margin: 0;
 			padding: 0;
-			max-width: 100px;
-			max-height: 36px !important;
-			height: 36px !important;
+			max-height: 28px !important;
+			height: 28px !important;
 			// transform: translateY(6px);
 			transform: translateY(-5px);
 			position: relative;
@@ -478,7 +478,7 @@ body.navstandard .offcanvas {
 	font-size: $fs2;
 	font-family: $ff2;
 	font-weight: 100;
-	padding: $sp1*1.3 0 $sp1*1.5 0;
+	padding: $sp1*1.7 0 $sp1*1.5 0;
 
 	.content-container & {
 		opacity: 0;
@@ -508,7 +508,8 @@ body.navstandard .offcanvas {
 		animation: textAnimation .5s forwards;
 		animation-delay: .7s;
 
-		margin-top: 8px;
+    margin-top: 8px;
+    padding-right: 30px;
 		& ~ p {
 			margin-top: 24px;
 		}

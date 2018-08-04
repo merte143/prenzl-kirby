@@ -12,11 +12,16 @@ Viele KMU’s haben zunehmend Probleme qualifiziertes Personal für ihre offenen
 
 (hr: t4)
 
-(link: https://gum.co/kollapse text: Kostenlos anfragen <span data-txt="$35">$35</span> popup: yes class: btn) <em style="position: relative; top: -15px;">
+(link: https://gum.co/kollapse text: Kostenlos anfragen popup: yes class: btn)
+
+(text: Bekannt aus: class: small)
+(image: handelsblatt.png class: press-logo hb)
+(image: impulse.png class: press-logo impulse)
+(image: talentpro.png class: press-logo talentpro)
 
 ++++
 
-(image: social-media.png)
+(image: social-media.png class: intro-illustration)
 
 (...columns)
 

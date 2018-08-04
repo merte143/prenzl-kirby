@@ -3,3 +3,28 @@
 * Your custom SCSS
 *
 **/
+
+.intro-illustration {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  width: 720px;
+}
+
+.press-logo {
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: middle;
+  img {
+    margin: 15px 0;
+  }
+  &.hb {
+    width: 174px;
+  }
+  &.impulse {
+    width: 125px;
+  }
+  &.talentpro {
+    width: 124px;
+  }
+}

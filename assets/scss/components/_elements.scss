@@ -205,7 +205,7 @@ button,
 .btn.btn-icon-o {
 	font-size: 18px;
 	border-color: transparent;
-	border-radius: 32px;
+	border-radius: 0;
 	font-weight: 400;
 	position: relative;
 	display: inline-block;
@@ -214,8 +214,7 @@ button,
 a.btn,
 .btn {
 	margin: 0;
-	padding: 0px 24px;
-	height: 41px;
+	padding: 6px 30px;
 	line-height: 42px;
 	overflow: hidden;
 	position: relative;

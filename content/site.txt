@@ -1,20 +1,20 @@
-Title: Kollapse
+Title: prenzlmedia
 
 ----
 
-Author: Joro Yordanov
+Author: Timo Müller
 
 ----
 
-Description: Kollapse - a pro Kirby CMS theme.
+Description: Social Media Recruiting Agentur
 
 ----
 
-Copyright: © (date: Year) (link: http://themes.yordanoff.net/kollapse/ text: Kollapse Theme popup: yes) for (link: http://getkirby.com text: Kirby CMS popup: yes) by (link: http://yordanoff.net text: Joro Yordanov popup: yes)
+Copyright: © (date: Year) by Tobias Heers
 
 ----
 
-Footer: Get Kollapse and build coolness! For project inquiries just (email:joro@yordanoff.net text: drop me a line class: highlight)
+Footer: Prenzl ist toll (email:t.heers@prenzlmedia.de text: drop me a line class: highlight)
 
 ----
 
@@ -22,7 +22,7 @@ Navigationtype: navstandard
 
 ----
 
-Socialfacebook:
+Socialfacebook: 
 
 ----
 
@@ -42,7 +42,7 @@ Socialdribbble: http://dribbble.com/yordanoff
 
 ----
 
-Socialbehance:
+Socialbehance: 
 
 ----
 
@@ -50,27 +50,27 @@ Socialgithub: http://github.com/yordanoff
 
 ----
 
-Socialmedium:
+Socialmedium: 
 
 ----
 
-Socialyoutube:
+Socialyoutube: 
 
 ----
 
-Socialvimeo:
+Socialvimeo: 
 
 ----
 
-Socialsnapchat:
+Socialsnapchat: 
 
 ----
 
-Socialsoundcloud:
+Socialsoundcloud: 
 
 ----
 
-Socialspotify:
+Socialspotify: 
 
 ----
 
@@ -90,15 +90,15 @@ Fontbody: Roboto+Slab
 
 ----
 
-Socialphone:
+Socialphone: 
 
 ----
 
-Socialaddress:
+Socialaddress: 
 
 ----
 
-Logo: ksvg.svg
+Logo: prenzlmedia.svg
 
 ----
 
@@ -118,12 +118,12 @@ Paginationblog: 3
 
 ----
 
-Googleanalytics:
+Googleanalytics: 
 
 ----
 
-Ca1: #1eb069
+Ca1: #0002df
 
 ----
 
-Ca2: #0bbcd6
+Ca2: #5f60ed

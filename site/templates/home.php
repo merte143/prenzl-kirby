@@ -5,7 +5,6 @@
 <div class="intro">
     <div class="wrap">
         <?= $page->intro()->kirbytext() ?>
-        <p>TEST</p>
     </div>
 </div>
 

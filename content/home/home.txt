@@ -2,23 +2,31 @@ Title: Home
 
 ----
 
-Intro:
+Intro: 
 
-# This is a Pro Kirby Theme
+(columns...)
 
-Kollapse is the most powerful multi-purpose, modern (link: http://getkirby.com text: Kirby CMS popup: yes) theme you have ever met.
+# Mehr Einstellungen durch Social Media Recruiting.
+
+Viele KMU’s haben zunehmend Probleme qualifiziertes Personal für ihre offenen Stellen zu finden. Wir helfen.
 
 (hr: t4)
 
-(link: https://gum.co/kollapse text: Buy Now <span data-txt="$35">$35</span> popup: yes class: btn) <em style="position: relative; top: -15px;"> or </em> (link: /about/features text: <i class="fa fa-arrow-right"></i> View Features class: btn btn-icon-o al)
+(link: https://gum.co/kollapse text: Kostenlos anfragen <span data-txt="$35">$35</span> popup: yes class: btn) <em style="position: relative; top: -15px;">
+
+++++
+
+(image: social-media.png)
+
+(...columns)
 
 ----
 
-Text:
+Text: 
 
 ----
 
-Titlealternative:
+Titlealternative: 
 
 ----
 
@@ -38,7 +46,7 @@ Slidersize: fullwidth
 
 ----
 
-Covervideo:
+Covervideo: 
 
 ----
 
@@ -46,4 +54,4 @@ Coverimage: kollapse-meta-image.png
 
 ----
 
-Sliderimages:
+Sliderimages: 

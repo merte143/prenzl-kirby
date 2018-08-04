@@ -1,25 +1,39 @@
-<?php if($pagination->hasPages()): ?>
-  <nav class="pagination wrap cf">
+<?php if (isset($pagination)): ?>
+    <?php if( $pagination->hasPrevPage() || $pagination->hasNextPage() ): ?>
+        <ul class="pagination">
 
-    <?php if($pagination->hasPrevPage()): ?>
-      <a class="pagination-item left" href="<?= $pagination->prevPageURL() ?>" rel="prev" title="newer articles">
-        <?= (new Asset("assets/images/arrow-left.svg"))->content() ?>
-      </a>
-    <?php else: ?>
-      <span class="pagination-item left is-inactive">
-        <?= (new Asset("assets/images/arrow-left.svg"))->content() ?>
-      </span>
-    <?php endif ?>
+            <?php if($pagination->hasPrevPage()): ?>
+            <li>
+                <a href="<?php echo $pagination->prevPageURL() ?>" class="al"
+                data-animsition-in-class="overlay-slide-in-right"
+                data-animsition-in-duration="500"
+                data-animsition-out-class="overlay-slide-out-right"
+                data-animsition-out-duration="500">
+                    &larr;
+                </a>
+            </li>
+            <?php endif ?>
 
-    <?php if($pagination->hasNextPage()): ?>
-      <a class="pagination-item right" href="<?= $pagination->nextPageURL() ?>" rel="next" title="older articles">
-        <?= (new Asset("assets/images/arrow-right.svg"))->content() ?>
-      </a>
-    <?php else: ?>
-      <span class="pagination-item right is-inactive">
-        <?= (new Asset("assets/images/arrow-right.svg"))->content() ?>
-      </span>
-    <?php endif ?>
+            <?php foreach($pagination->range(10) as $r): ?>
+            <li>
+                <a class="al <?php if($pagination->page() == $r) echo 'active' ?>" href="<?php echo $pagination->pageURL($r) ?>"
+                data-animsition-in-class="overlay-slide-in-bottom"
+                data-animsition-out-class="overlay-slide-out-bottom">
+                    <?php echo $r ?>
+                </a>
+            </li>
+            <?php endforeach ?>
 
-  </nav>
-<?php endif ?>
+            <?php if($pagination->hasNextPage()): ?>
+            <li class="last">
+                <a href="<?php echo $pagination->nextPageURL() ?>" class="al"
+                data-animsition-in-class="overlay-slide-in-left"
+                data-animsition-out-class="overlay-slide-out-left">
+                    &rarr;
+                </a>
+            </li>
+            <?php endif ?>
+
+        </ul>
+    <?php endif; ?>
+<?php endif; ?>

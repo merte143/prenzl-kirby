@@ -1,27 +1,35 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
-    
-    <article class="article single wrap">
+<?php snippet('intro') ?>
 
-      <header class="article-header">
-        <h1><?= $page->title()->html() ?></h1>
-        <div class="intro text">
-          <?= $page->date('F jS, Y') ?>
+<?php if( $image = $page->images()->find($page->coverimage()) ): ?>
+<div class="cover-image">
+    <img src="<?= $image->url() ?>" alt="" />
+</div>
+<?php endif; ?>
+
+<div class="wrap">
+    <article class="article index">
+
+        <div class="text">
+            <?= $page->text()->kirbytext() ?>
         </div>
-        <hr />
-      </header>
-      
-      <?php snippet('coverimage', $page) ?>
-      
-      <div class="text">
-        <?= $page->text()->kirbytext() ?>
-      </div>
-      
+
     </article>
-    
-    <?php snippet('prevnext', ['flip' => true]) ?>
-    
-  </main>
+
+    <hr />
+
+    <?php if( page('blog') ): ?>
+        <?php if($page->hasNextVisible() ): ?>
+            <strong>Read Next</strong> <br />
+            <a href="<?= $page->nextVisible()->url(); ?>" class="h1"><?= $page->nextVisible()->title(); ?></a> &rarr;
+        <?php else: ?>
+            <strong>End.</strong> <br />
+            <a href="<?= $site->url(); ?>" class="h1">Start over</a> &rarr;
+        <?php endif; ?>
+    <?php endif; ?>
+
+    <hr />
+</div><!-- wrapper -->
 
 <?php snippet('footer') ?>

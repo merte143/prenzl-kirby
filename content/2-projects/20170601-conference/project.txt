@@ -1,0 +1,65 @@
+Title: Conference
+
+----
+
+Year: 2017
+
+----
+
+Text: 
+
+Vestibulum dignissim nulla sem. Nullam pellentesque suscipit tortor. Aliquam egestas, enim vitae tempor egestas, felis est pulvinar justo, eu pulvinar nibh nibh hendrerit diam. Sed quis lorem sed magna varius consequat nec tincidunt nibh. Fusce at viverra orci. Proin mollis pellentesque elit ut ullamcorper. Aliquam erat volutpat. Aenean commodo mauris eu felis mollis, ut fringilla nulla tincidunt. Sed eu dolor in massa bibendum tincidunt vitae in tellus.
+
+Nam sed justo non arcu tristique fringilla. Curabitur quis mi sit amet odio porta auctor eget a ex. Nullam ac elit augue. Sed eros ipsum, fermentum sed tellus at, pharetra ultrices enim. Maecenas ac placerat arcu. Sed diam nibh, viverra eget volutpat ut, auctor placerat tortor. Duis facilisis risus at dui tristique, eu placerat risus malesuada. Donec pellentesque, nulla interdum laoreet molestie, ligula nisi efficitur elit, sed placerat ex erat ut sapien.
+
+----
+
+Tags: Mobile
+
+----
+
+Masktype: none
+
+----
+
+Intro: You know how I sometimes have really brilliant ideas? I am the (link: http://google.com text: Doctor popup: yes).
+
+----
+
+Mask: light
+
+----
+
+Covermedia: slider
+
+----
+
+Slidersize: fullwidth
+
+----
+
+Covervideo: 
+
+----
+
+Coverimage: anthony-menecola-259853.jpg
+
+----
+
+Sliderimages: anthony-menecola-259853.jpg,nielsen-ramon-277806.jpg
+
+----
+
+Date: 2017-06-01
+
+----
+
+Titlealternative: 
+
+----
+
+Toggletitle: 0
+
+----
+
+Togglesubnav: 0

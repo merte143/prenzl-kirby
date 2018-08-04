@@ -1,0 +1,75 @@
+Title: Modern Society
+
+----
+
+Year: 2016
+
+----
+
+Text: 
+
+I'm the Doctor. Well, they call me the Doctor. I don't know why. I call me the Doctor too. I still don't know why.
+
+Saving the world with meals on wheels. Aw, you're all Mr. Grumpy Face today. You've swallowed a planet! Saving the world with meals on wheels. It's a fez. I wear a fez now. Fezes are cool.
+
+(columns...)
+> It's art! A statement on modern society: Oh Ain't Modern Society Awful?  I don't know why.
+(...columns)
+
+Father Christmas. Santa Claus. Or as I've always known him: Jeff. __It's art!__
+
+(image: michael-221247.jpg link: self class: lightbox) 
+
+No, I'll fix it. I'm good at fixing rot. Call me the Rotmeister. No, I'm the Doctor. Don't call me the Rotmeister. The way I see it, every life is a pile of good things and bad things. *Hey*, the good things don't always soften the bad things; but vice-versa the bad things don't necessarily spoil the good things and make them unimportant.
+
+----
+
+Tags: Website
+
+----
+
+Masktype: light
+
+----
+
+Intro: Father Christmas. Santa Claus. Or as I've always known him: Jeff. __It's art!__
+
+----
+
+Mask: light
+
+----
+
+Covermedia: cvideo
+
+----
+
+Slidersize: fullwidth
+
+----
+
+Covervideo: 695974265.mp4
+
+----
+
+Coverimage: michael-221247.jpg
+
+----
+
+Sliderimages: 
+
+----
+
+Date: 2017-07-09
+
+----
+
+Titlealternative: 
+
+----
+
+Toggletitle: 0
+
+----
+
+Togglesubnav: 0

@@ -1,19 +1,24 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
+<?php snippet('intro') ?>
 
-    <header class="wrap">
-      <h1><?= $page->title()->html() ?></h1>
-      <div class="intro text">
-        <?= $page->intro()->kirbytext() ?>
-      </div>
-      <hr />
-    </header>
-      
-    <div class="text wrap">
-      <?= $page->text()->kirbytext() ?>
-    </div>
+<?php snippet('slider') ?>
 
-  </main>
+<div class="wrap">
+
+    <article class="article index">
+
+        <div class="text">
+            <?= $page->text()->kirbytext() ?>
+        </div>
+
+    </article>
+
+    <hr />
+
+    <?php snippet('prevnext'); ?>
+
+    <hr />
+</div><!-- wrapper -->
 
 <?php snippet('footer') ?>

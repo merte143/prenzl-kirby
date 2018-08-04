@@ -1,16 +1,13 @@
-title: Home
+title: Page
 
-pages: false
+pages: true
 
 fields:
-  title:
-    label: Title
-    type:  text
+  settingsgroup:
+    extends: settings
 
-  intro:
-    label: Intro
-    type:  textarea
+  slidergroup:
+    extends: slider
 
-  text:
-    label: Text
-    type:  textarea
+  contentgroup:
+    extends: content

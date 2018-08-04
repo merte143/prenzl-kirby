@@ -1,0 +1,41 @@
+Title: Projects
+
+----
+
+Intro: Collection of my architecture and interior design projects from 2014 until nowadays.
+
+----
+
+Text:
+
+----
+
+Titlealternative: Selected Projects
+
+----
+
+Toggletitle: 0
+
+----
+
+Coverimage: alessio-lin-208180-l.jpg
+
+----
+
+Togglesubnav: 0
+
+----
+
+Covermedia: cimage
+
+----
+
+Slidersize: fullwidth
+
+----
+
+Covervideo:
+
+----
+
+Sliderimages:

@@ -2,19 +2,48 @@ Title: Home
 
 ----
 
-Intro: Yay! If you are seeing this, the installation of Kirby worked. :-)
+Intro:
+
+# This is a Pro Kirby Theme
+
+Kollapse is the most powerful multi-purpose, modern (link: http://getkirby.com text: Kirby CMS popup: yes) theme you have ever met.
+
+(hr: t4)
+
+(link: https://gum.co/kollapse text: Buy Now <span data-txt="$35">$35</span> popup: yes class: btn) <em style="position: relative; top: -15px;"> or </em> (link: /about/features text: <i class="fa fa-arrow-right"></i> View Features class: btn btn-icon-o al)
 
 ----
 
-Text: 
+Text:
 
-## Get started
+----
 
-- Go to the (link: panel text: Panel) to give Kirby's admin interface a try
-- Check out the (link: http://getkirby.com/docs text: docs) and start building your own site
-- Follow (twitter: @getkirby) on Twitter for updates
-- Visit the (link: http://forum.getkirby.com text: forum) to connect with other Kirby users
-- Sign up to (link: https://getkirby.com/#kosmos text: Kirby Kosmos), our monthly newsletter
-- (link: http://getkirby.com/support text: Get in contact) if you need support.
+Titlealternative:
 
-**Have fun with Kirby!**
+----
+
+Toggletitle: 0
+
+----
+
+Togglesubnav: 0
+
+----
+
+Covermedia: cimage
+
+----
+
+Slidersize: fullwidth
+
+----
+
+Covervideo:
+
+----
+
+Coverimage: kollapse-meta-image.png
+
+----
+
+Sliderimages:

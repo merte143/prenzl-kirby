@@ -1,13 +1,129 @@
-Title: Kirby Starterkit
+Title: Kollapse
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Joro Yordanov
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: Kollapse - a pro Kirby CMS theme.
 
 ----
 
-Copyright: © 2009–(date: Year) (link: http://getkirby.com text: The Kirby Team)
+Copyright: © (date: Year) (link: http://themes.yordanoff.net/kollapse/ text: Kollapse Theme popup: yes) for (link: http://getkirby.com text: Kirby CMS popup: yes) by (link: http://yordanoff.net text: Joro Yordanov popup: yes)
+
+----
+
+Footer: Get Kollapse and build coolness! For project inquiries just (email:joro@yordanoff.net text: drop me a line class: highlight)
+
+----
+
+Navigationtype: navstandard
+
+----
+
+Socialfacebook:
+
+----
+
+Socialtwitter: http://twitter.com/yordanoff
+
+----
+
+Sociallinkedin: http://linkedin.com/in/yordanoff
+
+----
+
+Socialinstagram: http://instagram.com/yordanoff
+
+----
+
+Socialdribbble: http://dribbble.com/yordanoff
+
+----
+
+Socialbehance:
+
+----
+
+Socialgithub: http://github.com/yordanoff
+
+----
+
+Socialmedium:
+
+----
+
+Socialyoutube:
+
+----
+
+Socialvimeo:
+
+----
+
+Socialsnapchat:
+
+----
+
+Socialsoundcloud:
+
+----
+
+Socialspotify:
+
+----
+
+Socialemail: joro@yordanoff.net
+
+----
+
+Grid: 1
+
+----
+
+Fontheadings: Roboto
+
+----
+
+Fontbody: Roboto+Slab
+
+----
+
+Socialphone:
+
+----
+
+Socialaddress:
+
+----
+
+Logo: ksvg.svg
+
+----
+
+Metaimage: kollapse-meta-image.png
+
+----
+
+Paginationpages: 6
+
+----
+
+Paginationprojects: 4
+
+----
+
+Paginationblog: 3
+
+----
+
+Googleanalytics:
+
+----
+
+Ca1: #1eb069
+
+----
+
+Ca2: #0bbcd6

@@ -1,0 +1,41 @@
+Title: Blog
+
+----
+
+Text:
+
+----
+
+Intro: Blogging with Kirby is as easy as it’s fun.
+
+----
+
+Titlealternative:
+
+----
+
+Toggletitle: 0
+
+----
+
+Togglesubnav: 0
+
+----
+
+Covermedia: cimage
+
+----
+
+Slidersize: fullwidth
+
+----
+
+Covervideo:
+
+----
+
+Coverimage: joel-filipe-260016-l.jpg
+
+----
+
+Sliderimages:

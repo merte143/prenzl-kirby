@@ -2,15 +2,11 @@ title: Error
 
 pages: false
 
+icon: warning
+
 fields:
-  title:
-    label: Title
-    type:  text
+  settingsgroup:
+    extends: settings
 
-  intro:
-    label: Intro
-    type:  textarea
-
-  text:
-    label: Text
-    type:  textarea
+  contentgroup:
+    extends: content

@@ -1,18 +1,42 @@
-  <footer class="footer cf" role="contentinfo">
-    <div class="wrap wide">
+        <div class="cf"></div>
 
-      <p class="footer-copyright"><?php
-        // Parse Kirbytext to support dynamic year,
-        // but remove all HTML like paragraph tags:
-        echo html::decode($site->copyright()->kirbytext())
-      ?></p>
+        <div class="footer" role="contentinfo">
+            <div class="wrap">
 
-      <p class="footer-madewithkirby">
-        <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b class="heart">♥</b></a>
-      </p>
-    
-    </div>
-  </footer>
+                <div class="cta">
+                    <?= $site->footer()->kirbytext() ?>
+
+                    <?php snippet('social') ?>
+                </div>
+
+                <div class="cf"></div><br />
+
+                <div class="colophon">
+                    <?= $site->copyright()->kirbytext()?>
+                </div>
+
+                <div class="cf"></div>
+
+            </div>
+        </div>
+
+    </div><!-- #container -->
+</div><!-- #canvas -->
+
+<div id="isMobile"></div>
+
+<?= $site->googleanalytics()->html() ?>
+
+<?= js('assets/scripts/scrolltofixed.min.js') ?>
+<?= js('assets/scripts/main.js') ?>
+
+<noscript>
+    <style>
+        .animsition-overlay-slide {
+            display: none !important;
+        }
+    </style>
+</noscript>
 
 </body>
 </html>

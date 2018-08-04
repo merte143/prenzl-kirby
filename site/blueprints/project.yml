@@ -3,19 +3,20 @@ title: Project
 files:
   sortable: true
 
+options:
+  status: true
+
 pages: false
 
 fields:
-  title:
-    label: Title
-    type:  text
-    width: 3/4
+  settingsgroup:
+    extends: settings
 
-  year:
-    label: Year
-    type:  text
-    width: 1/4
+  itemrgroup:
+    extends: item
 
-  text:
-    label: Text
-    type:  textarea
+  slidergroup:
+    extends: slider
+
+  contentgroup:
+    extends: content

@@ -1,0 +1,91 @@
+Headlinegeneral: 
+
+----
+
+Title: It ends here
+
+----
+
+Date: 2017-07-08
+
+----
+
+Intro: You're taller than you look in the tabIoids, Mr. Wayne.
+
+----
+
+Tags: Regular
+
+----
+
+Headlineslider: 
+
+----
+
+Covermedia: cimage
+
+----
+
+Slidersize: fullwidth
+
+----
+
+Covervideo: 
+
+----
+
+Coverimage: yoann-boyer-276971.jpg
+
+----
+
+Sliderimages: 
+
+----
+
+Headlinebody: 
+
+----
+
+Text: 
+
+When a forest grows too wild, a purging fire is inevitable and natural. Tomorrow the world will watch in horror as its greatest city destroys itself. The movement back to harmony will be unstoppable this time.
+
+You fight like a younger man, there's nothing held back. It's admirable, but mistaken.
+
+But it's not who you are underneath... it's what you do that defines you.
+
+It's ends here.
+
+You're taller than you look in the tabIoids, Mr. Wayne.
+
+Because some men aren't looking for anything logical, like money. They can't be bought, bullied, reasoned or negotiated with. Some men just wanna watch the world burn.
+
+I'm not sure you made it loud enough, sir.
+
+If you're good at something, never do it for free.
+
+This is what happens when an unstoppable force meets an immovable object.
+
+I'm Gotham's reckoning. It'll end the ball of damns you've all been living on. A necessary evil.
+
+You have nothing, nothing to threaten me with. Nothing to do with all your strength.
+
+It doesn't matter who we are. What matters is our plan.
+
+I'll be standing where l belong. Between you and the peopIe of Gotham.
+
+----
+
+Titlealternative: 
+
+----
+
+Toggletitle: 0
+
+----
+
+Togglesubnav: 0
+
+----
+
+Mask: light

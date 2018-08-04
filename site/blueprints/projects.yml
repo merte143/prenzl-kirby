@@ -1,20 +1,23 @@
 title: Projects
 
-files: false
-
 pages:
   template: project
+  sort: manually
+  num: date
 
-options: 
-  template: false  
-  status: false  
-  url: false  
+options:
+  template: false
+  status: true
+  url: true
+
+icon: files-o
 
 fields:
-  title:
-    label: Title
-    type:  text
+  settingsgroup:
+    extends: settings
 
-  text:
-    label: Text
-    type:  textarea
+  slidergroup:
+    extends: slider
+
+  contentgroup:
+    extends: content

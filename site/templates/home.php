@@ -49,6 +49,14 @@
         // Select the listing view you'd like to use
         snippet('listing-compact',[ 'items' => $articles ]);
     ?>
+
+    <?php
+        // -------------------------------------------------
+        // Contact Form
+        // -------------------------------------------------
+
+        snippet('contact-form');
+    ?>
 </div>
 
 <?php snippet('footer') ?>

@@ -28,3 +28,14 @@
     width: 124px;
   }
 }
+
+.uniform__potty {
+  position: absolute;
+  left: -9999px;
+}
+
+.contact-form {
+  input, label {
+    display: block;
+  }
+}

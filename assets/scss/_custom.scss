@@ -39,3 +39,42 @@
     display: block;
   }
 }
+
+.navstandard .menu li a.btn-contact {
+  border: 1px solid $ca1;
+  padding: 4px 12px;
+  color: $ca1 !important;
+  border-radius: 18px;
+  margin-top: -4px;
+  img {
+    margin: 0;
+    width: 16px;
+    border-radius: 0;
+    margin: 0 3px;
+  }
+}
+
+.topbar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: $c6;
+  text-align: center;
+  height: $topbar-height;
+  p {
+    padding: 8px 0;
+  }
+  .btn-topbar {
+    padding: 3px 12px;
+    background-color: #232732;
+    border-radius: 3px;
+    border-bottom: none;
+    color: #fff !important;
+    margin: 0 8px; 
+  }
+}
+
+.topbar-placeholder{
+  height: $topbar-height;
+}

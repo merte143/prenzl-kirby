@@ -34,6 +34,11 @@
 
     <div id="canvas">
 
+        <?php if( $page->toggleTopbar()->bool() ) : ?>
+            <?php snippet('topbar') ?>
+            <div class="topbar-placeholder"></div>
+        <?php endif; ?>
+
         <header class="header cf" role="banner">
             <div class="wrap">
 

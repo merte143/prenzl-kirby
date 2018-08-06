@@ -27,3 +27,13 @@ fields:
     type:  checkbox
     text: Show Submenu items (if any) in Main Menu
     width: 1/2
+  toggletopbar:
+    label: Topbar Visibility
+    type:  checkbox
+    text: Show Topbar
+    width: 1/2
+  titletopbar:
+    label: Title Topbar
+    type:  text
+    width: 1/2
+    help: Change text in topbar

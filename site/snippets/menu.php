@@ -61,6 +61,12 @@
 
     </li>
     <?php endforeach ?>
+    <li>
+        <a class="btn-contact" href="#contact">
+          <img src="<?php echo url('assets/images/email.png') ?>" alt="mail">
+          Kontakt
+        </a>
+    </li>
 
     <?php if( (s::get('device_class') == 'desktop') && ($site->navigationtype() == 'navoffcanvas' ) ): ?>
         <?php snippet('social') ?>

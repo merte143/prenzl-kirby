@@ -35,7 +35,7 @@ Titlealternative:
 
 ----
 
-Toggletitle: 0
+Toggletitle: 1
 
 ----
 
@@ -60,3 +60,11 @@ Coverimage: kollapse-meta-image.png
 ----
 
 Sliderimages: 
+
+----
+
+Toggletopbar: 1
+
+----
+
+Titletopbar: PrenzlMedia heute im Handelsblatt (link: https://handelsblatt.de text: Hier popup: yes class: btn-topbar)

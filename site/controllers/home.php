@@ -19,7 +19,7 @@ return function ($site, $pages, $page)
     if (r::is('POST')) {
         $form->emailAction([
             'to' => 'timo.h.mueller@gmx.de',
-            'from' => 'timo.h.mueller@gmail.com',
+            'from' => 'info@prenzlmedia.de',
             'subject' => 'Test',
         ]);
     }

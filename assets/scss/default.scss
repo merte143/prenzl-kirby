@@ -542,7 +542,16 @@ body.navstandard .offcanvas {
 	justify-content: space-between;
 	align-items: flex-end;
 	align-content: flex-end;
-	margin: $sp1*2 0 $sp3 0;
+  margin: $sp1*2 0 $sp3 0;
+  &.big {
+    padding: $sp1*2 0 $sp3 0;
+    margin: 0;
+    text-align: center;
+    display: block;
+    h2 {
+      font-size: 44px;
+    }
+  }
 	h2 {
 		margin: 0;
 	}

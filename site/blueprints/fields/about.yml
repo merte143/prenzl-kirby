@@ -1,21 +1,5 @@
-title: Page
-
-pages: true
-
+type: group
 fields:
-
-  settingsgroup:
-    extends: settings
-
-  slidergroup:
-    extends: slider
-
-  contentgroup:
-    extends: content
-
-  explanationgroup:
-    extends: how-it-works
-    
   headline:
     label: About
     type: headline

@@ -10,7 +10,6 @@
 
 <div class="content-container">
 
-
     <?php if( $page->text()->isNotEmpty() ) : ?>
     <hr />
 
@@ -18,6 +17,30 @@
         <?= $page->text()->kirbytext() ?>
     </div>
     <?php endif; ?>
+
+    <section class="grey-bg">
+
+        <div class="wrap-lg">
+            <div class="section-heading big">
+                <h2>How it works</h2>
+            </div>
+        </div>
+
+        <?php
+            // -------------------------------------------------
+            // How it works
+            // -------------------------------------------------
+
+            snippet('how-it-works');
+        ?>
+
+        <div class="wrap-lg">
+            <div class="button-container">
+                <a href="https://gum.co/kollapse" rel="noopener noreferrer" class="btn" target="_blank">Kostenlos anfragen</a>
+            </div>
+        </div>
+
+    </section>
 
     <?php
         // -------------------------------------------------

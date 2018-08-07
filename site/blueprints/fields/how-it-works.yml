@@ -1,0 +1,41 @@
+type: group
+fields:
+  headline:
+    label: How it works
+    type: headline
+
+  icon1:
+    label: Icon1
+    type:  image
+
+  title1:
+    label: Text1
+    type:  text
+
+  text1:
+    label: Text1
+    type:  textarea
+
+  icon2:
+    label: Icon2
+    type:  image
+
+  title2:
+    label: Text2
+    type:  text
+
+  text2:
+    label: Text2
+    type:  textarea
+
+  icon3:
+    label: Icon3
+    type:  image
+
+  title3:
+    label: Text3
+    type:  text
+
+  text3:
+    label: Text3
+    type:  textarea

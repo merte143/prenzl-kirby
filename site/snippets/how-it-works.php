@@ -3,7 +3,7 @@
     <div class="item index">
 
         <div class="image-listing">
-            <?php if( $image = $page->images()->find($page->icon1()) ): ?>
+            <?php if( $image = $page->images()->find($page->iconHow1()) ): ?>
             <div class="cover-image">
                 <img src="<?= $image->url() ?>" alt="" />
             </div>
@@ -12,13 +12,13 @@
 
         <header>
             <h3>
-              <?= $page->title1()->html() ?>
+              <?= $page->titleHow1()->html() ?>
             </h3>
         </header>
 
         <div class="text">
             <p>
-                <?= $page->text1()->kirbytext() ?>
+                <?= $page->textHow1()->kirbytext() ?>
             </p>
         </div>
 
@@ -27,7 +27,7 @@
     <div class="item index">
 
         <div class="image-listing">
-            <?php if( $image = $page->images()->find($page->icon2()) ): ?>
+            <?php if( $image = $page->images()->find($page->iconHow2()) ): ?>
             <div class="cover-image">
                 <img src="<?= $image->url() ?>" alt="" />
             </div>
@@ -36,13 +36,13 @@
 
         <header>
             <h3>
-              <?= $page->title2()->html() ?>
+              <?= $page->titleHow2()->html() ?>
             </h3>
         </header>
 
         <div class="text">
             <p>
-                <?= $page->text2()->kirbytext() ?>
+                <?= $page->textHow2()->kirbytext() ?>
             </p>
         </div>
 
@@ -51,7 +51,7 @@
     <div class="item index">
 
         <div class="image-listing">
-            <?php if( $image = $page->images()->find($page->icon3()) ): ?>
+            <?php if( $image = $page->images()->find($page->iconHow3()) ): ?>
             <div class="cover-image">
                 <img src="<?= $image->url() ?>" alt="" />
             </div>
@@ -60,13 +60,13 @@
 
         <header>
             <h3>
-              <?= $page->title3()->html() ?>
+              <?= $page->titleHow3()->html() ?>
             </h3>
         </header>
 
         <div class="text">
             <p>
-                <?= $page->text3()->kirbytext() ?>
+                <?= $page->textHow3()->kirbytext() ?>
             </p>
         </div>
 

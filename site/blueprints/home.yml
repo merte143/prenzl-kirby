@@ -16,18 +16,8 @@ fields:
   explanationgroup:
     extends: how-it-works
     
-  headline:
-    label: About
-    type: headline
+  aboutgroup:
+    extends: about
 
-  image:
-    label: AboutImage
-    type:  image
-
-  title:
-    label: AboutTitle
-    type:  text
-
-  text:
-    label: AboutText
-    type:  textarea
+  advantagesgroup:
+    extends: advantages

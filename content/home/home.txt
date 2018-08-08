@@ -108,3 +108,115 @@ Title3: Title
 ----
 
 Image: 
+
+----
+
+Iconhow1: impulse.png
+
+----
+
+Titlehow1: das
+
+----
+
+Texthow1: das
+
+----
+
+Iconhow2: impulse.png
+
+----
+
+Titlehow2: das
+
+----
+
+Texthow2: das
+
+----
+
+Iconhow3: impulse.png
+
+----
+
+Titlehow3: das
+
+----
+
+Texthow3: das
+
+----
+
+Imageabout: social-media.png
+
+----
+
+Titleabout: Ich musste erste lernen
+
+----
+
+Textabout: Es war einmal ein Prenzl.
+
+----
+
+Titleadvantages1: Vorteil 1
+
+----
+
+Textadvantages1: Teste
+
+----
+
+Titleadvantages2: Vorteil 2
+
+----
+
+Textadvantages2: Teste
+
+----
+
+Titleadvantages3: Vorteil 3
+
+----
+
+Textadvantages3: Teste
+
+----
+
+Titleadvantages4: Vorteil 4
+
+----
+
+Textadvantages4: Teste
+
+----
+
+Titlepro1: Vorteil 1
+
+----
+
+Textpro1: Test
+
+----
+
+Titlepro2: Vorteil 2
+
+----
+
+Textpro2: Test
+
+----
+
+Titlepro3: Vorteil 3
+
+----
+
+Textpro3: Test
+
+----
+
+Titlepro4: Vorteil 4
+
+----
+
+Textpro4: Test

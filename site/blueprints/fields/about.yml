@@ -1,17 +1,17 @@
 type: group
 fields:
-  headline:
+  headlineAbout:
     label: About
     type: headline
 
-  image:
-    label: AboutImage
+  imageAbout:
+    label: Image
     type:  image
 
-  title:
-    label: AboutTitle
+  titleAbout:
+    label: Title
     type:  text
 
-  text:
-    label: AboutText
+  textAbout:
+    label: Text
     type:  textarea

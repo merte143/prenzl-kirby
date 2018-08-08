@@ -1,0 +1,37 @@
+type: group
+fields:
+  headlinePro:
+    label: Pro
+    type: headline
+
+  titlePro1:
+    label: Text1
+    type:  text
+
+  textPro1:
+    label: Text1
+    type:  textarea
+
+  titlePro2:
+    label: Text2
+    type:  text
+
+  textPro2:
+    label: Text2
+    type:  textarea
+
+  titlePro3:
+    label: Text3
+    type:  text
+
+  textPro3:
+    label: Text3
+    type:  textarea
+
+  titlePro4:
+    label: Text4
+    type:  text
+
+  textPro4:
+    label: Text4
+    type:  textarea

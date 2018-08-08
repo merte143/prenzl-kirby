@@ -1,41 +1,41 @@
 type: group
 fields:
-  headline:
+  headlineHowitworks:
     label: How it works
     type: headline
 
-  icon1:
+  iconHow1:
     label: Icon1
     type:  image
 
-  title1:
+  titleHow1:
     label: Text1
     type:  text
 
-  text1:
+  textHow1:
     label: Text1
     type:  textarea
 
-  icon2:
+  iconHow2:
     label: Icon2
     type:  image
 
-  title2:
+  titleHow2:
     label: Text2
     type:  text
 
-  text2:
+  textHow2:
     label: Text2
     type:  textarea
 
-  icon3:
+  iconHow3:
     label: Icon3
     type:  image
 
-  title3:
+  titleHow3:
     label: Text3
     type:  text
 
-  text3:
+  textHow3:
     label: Text3
     type:  textarea

@@ -42,6 +42,42 @@
 
     </section>
 
+    <section>
+
+      <?php
+          // -------------------------------------------------
+          // About us
+          // -------------------------------------------------
+
+          snippet('about-us');
+      ?>
+
+    </section>
+
+    <section class="grey-bg">
+
+        <div class="wrap-lg">
+            <div class="section-heading big">
+                <h2>Advantages</h2>
+            </div>
+        </div>
+
+        <?php
+            // -------------------------------------------------
+            // Advantages
+            // -------------------------------------------------
+
+            snippet('advantages');
+        ?>
+
+        <div class="wrap-lg">
+            <div class="button-container">
+                <a href="https://gum.co/kollapse" rel="noopener noreferrer" class="btn" target="_blank">Kostenlos anfragen</a>
+            </div>
+        </div>
+
+    </section>
+
     <?php
         // -------------------------------------------------
         // Project Entries

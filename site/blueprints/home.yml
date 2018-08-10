@@ -21,3 +21,6 @@ fields:
 
   advantagesgroup:
     extends: advantages
+
+  testimonialsgroup:
+    extends: testimonials

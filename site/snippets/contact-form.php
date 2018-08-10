@@ -3,7 +3,7 @@
         <h2>Kontaktiere uns</h2>
     </div>
 
-    <form class="contact-form" action="<?php echo $page->url() ?>" method="POST">
+    <form class="form" action="<?php echo $page->url() ?>" method="POST">
         <label>Email</label>
         <input<?php if ($form->error('email')): ?> class="error"<?php endif; ?> name="email" type="email" value="<?php echo $form->old('email') ?>">
 

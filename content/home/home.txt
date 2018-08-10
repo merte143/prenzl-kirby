@@ -220,3 +220,27 @@ Titlepro4: Vorteil 4
 ----
 
 Textpro4: Test
+
+----
+
+Imagetestimonial1: impulse.png
+
+----
+
+Titletestimonial1: das
+
+----
+
+Texttestimonial1: das
+
+----
+
+Imagetestimonial2: impulse.png
+
+----
+
+Titletestimonial2: das
+
+----
+
+Texttestimonial2: das

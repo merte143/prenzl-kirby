@@ -1,0 +1,29 @@
+type: group
+fields:
+  headlineTestimonials:
+    label: Testimonials
+    type: headline
+
+  imageTestimonial1:
+    label: Image
+    type:  image
+
+  titleTestimonial1:
+    label: Title
+    type:  text
+
+  textTestimonial1:
+    label: Text
+    type:  textarea
+
+  imageTestimonial2:
+    label: Image
+    type:  image
+
+  titleTestimonial2:
+    label: Title
+    type:  text
+
+  textTestimonial2:
+    label: Text
+    type:  textarea

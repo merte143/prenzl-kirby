@@ -1,0 +1,9 @@
+type: group
+fields:
+  headlineEbook:
+    label: E-Book
+    type: headline
+
+  textEbook:
+    label: Ebook
+    type:  textarea

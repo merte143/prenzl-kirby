@@ -24,3 +24,9 @@ fields:
 
   testimonialsgroup:
     extends: testimonials
+
+  pricinggroup:
+    extends: pricing
+
+  ebookgroup:
+    extends: ebook

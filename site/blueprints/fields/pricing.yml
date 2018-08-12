@@ -1,0 +1,47 @@
+type: group
+fields:
+  headlinePricing:
+    label: Pricing
+    type: headline
+
+  titlePricing1:
+    label: Title Pricing 1
+    type:  text
+    width: 1/2
+
+  pricePricing1:
+    label: Price Pricing 1
+    type:  text
+    width: 1/2
+
+  listPricing1:
+    label: List Pricing 1
+    type:  textarea
+
+  titlePricing2:
+    label: Title Pricing 2
+    type:  text
+    width: 1/2
+
+  pricePricing2:
+    label: Price Pricing 2
+    type:  text
+    width: 1/2
+
+  listPricing2:
+    label: List Pricing 2
+    type:  textarea
+
+  titlePricing3:
+    label: Title Pricing 3
+    type:  text
+    width: 1/2
+
+  pricePricing3:
+    label: Price Pricing 3
+    type:  text
+    width: 1/2
+
+  listPricing3:
+    label: List Pricing 3
+    type:  textarea

@@ -5,15 +5,15 @@ fields:
     type: headline
 
   iconHow1:
-    label: Icon1
+    label: Social Icon
     type:  image
 
   titleHow1:
-    label: Text1
+    label: Title USP 1
     type:  text
 
   textHow1:
-    label: Text1
+    label: Write some text here
     type:  textarea
 
   iconHow2:

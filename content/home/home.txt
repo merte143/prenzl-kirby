@@ -6,7 +6,7 @@ Intro:
 
 (columns...)
 
-# Mehr Einstellungen durch Social Media Recruiting.
+# Mehr Einstellungen durch Social Media Nudeln.
 
 Viele KMU’s haben zunehmend Probleme qualifiziertes Personal für ihre offenen Stellen zu finden. Wir helfen.
 
@@ -111,15 +111,15 @@ Image:
 
 ----
 
-Iconhow1: impulse.png
+Iconhow1: handelsblatt.png
 
 ----
 
-Titlehow1: das
+Titlehow1: Handelsblatt
 
 ----
 
-Texthow1: das
+Texthow1: as
 
 ----
 
@@ -227,11 +227,11 @@ Imagetestimonial1: impulse.png
 
 ----
 
-Titletestimonial1: das
+Titletestimonial1: Philippe, 27 Gründer Joidy GmbH
 
 ----
 
-Texttestimonial1: das
+Texttestimonial1: "Es war mir eine Ehre mit prenzl zu arbeiten."
 
 ----
 
@@ -244,3 +244,69 @@ Titletestimonial2: das
 ----
 
 Texttestimonial2: das
+
+----
+
+Titlepricing1: Billig
+
+----
+
+Pricepricing1: 199 €
+
+----
+
+Listpricing1: 
+
+* Toll 1
+* Toll 2
+* Toll 3
+
+----
+
+Titlepricing2: Mittel
+
+----
+
+Pricepricing2: 499 €
+
+----
+
+Listpricing2: 
+
+* Toll 1
+* Toll 2
+* Toll 3
+
+----
+
+Titlepricing3: Teuer
+
+----
+
+Pricepricing3: 999 €
+
+----
+
+Listpricing3: 
+
+* Toll 1
+* Toll 2
+* Toll 3
+
+----
+
+Textebook: 
+
+(columns...)
+
+(image: social-media.png)
+
+++++
+
+# Lad dir mein Ebook
+
+Viele KMU’s haben zunehmend Probleme qualifiziertes Personal für ihre offenen Stellen zu finden. Wir helfen.
+
+(link: https://gum.co/kollapse text: Jetzt herunterladen popup: yes class: btn)
+
+(...columns)

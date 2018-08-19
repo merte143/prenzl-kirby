@@ -1,76 +1,82 @@
-<div class="wrap-lg listing-compact">
+<div class="wrap-lg listing-compact how-it-works">
 
-    <div class="item index">
+    <div>
 
-        <div class="image-listing">
-            <?php if( $image = $page->images()->find($page->iconHow1()) ): ?>
-            <div class="cover-image">
-                <img src="<?= $image->url() ?>" alt="" />
-            </div>
-            <?php endif; ?>
-        </div>
+      <div class="item index">
 
-        <header>
-            <h3>
-              <?= $page->titleHow1()->html() ?>
-            </h3>
-        </header>
+          <div class="image-listing">
+              <?php if( $image = $page->images()->find($page->iconHow1()) ): ?>
+              <div class="graphic">
+                  <img src="<?= $image->url() ?>" alt="" />
+              </div>
+              <?php endif; ?>
+          </div>
 
-        <div class="text">
-            <p>
-                <?= $page->textHow1()->kirbytext() ?>
-            </p>
-        </div>
+          <header>
+              <h3>
+                <?= $page->titleHow1()->html() ?>
+              </h3>
+          </header>
 
+          <div class="text">
+              <p>
+                  <?= $page->textHow1()->kirbytext() ?>
+              </p>
+          </div>
+
+      </div>
+
+      <div class="item index">
+
+          <div class="image-listing">
+              <?php if( $image = $page->images()->find($page->iconHow2()) ): ?>
+              <div class="graphic">
+                  <img src="<?= $image->url() ?>" alt="" />
+              </div>
+              <?php endif; ?>
+          </div>
+
+          <header>
+              <h3>
+                <?= $page->titleHow2()->html() ?>
+              </h3>
+          </header>
+
+          <div class="text">
+              <p>
+                  <?= $page->textHow2()->kirbytext() ?>
+              </p>
+          </div>
+
+      </div>
+
+      <div class="item index">
+
+          <div class="image-listing">
+              <?php if( $image = $page->images()->find($page->iconHow3()) ): ?>
+              <div class="graphic">
+                  <img src="<?= $image->url() ?>" alt="" />
+              </div>
+              <?php endif; ?>
+          </div>
+
+          <header>
+              <h3>
+                <?= $page->titleHow3()->html() ?>
+              </h3>
+          </header>
+
+          <div class="text">
+              <p>
+                  <?= $page->textHow3()->kirbytext() ?>
+              </p>
+          </div>
+
+      </div>
+
+      <div class="cf"></div>
     </div>
-
-    <div class="item index">
-
-        <div class="image-listing">
-            <?php if( $image = $page->images()->find($page->iconHow2()) ): ?>
-            <div class="cover-image">
-                <img src="<?= $image->url() ?>" alt="" />
-            </div>
-            <?php endif; ?>
-        </div>
-
-        <header>
-            <h3>
-              <?= $page->titleHow2()->html() ?>
-            </h3>
-        </header>
-
-        <div class="text">
-            <p>
-                <?= $page->textHow2()->kirbytext() ?>
-            </p>
-        </div>
-
+    <div class="button-container">
+        <a href="https://gum.co/kollapse" rel="noopener noreferrer" class="btn" target="_blank">Kostenlos anfragen</a>
     </div>
-
-    <div class="item index">
-
-        <div class="image-listing">
-            <?php if( $image = $page->images()->find($page->iconHow3()) ): ?>
-            <div class="cover-image">
-                <img src="<?= $image->url() ?>" alt="" />
-            </div>
-            <?php endif; ?>
-        </div>
-
-        <header>
-            <h3>
-              <?= $page->titleHow3()->html() ?>
-            </h3>
-        </header>
-
-        <div class="text">
-            <p>
-                <?= $page->textHow3()->kirbytext() ?>
-            </p>
-        </div>
-
-    </div>
-
-    <div class="cf"></div>
 </div>

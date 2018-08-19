@@ -110,6 +110,8 @@
   top: 50%;
   width: 92%;
   margin-left: 4%;
+  // hide arrows
+  display: none;
 }
 .glide--vertical .glide__arrows {
   left: 50%;
@@ -181,7 +183,7 @@
 }
 .glide__bullets > * {
   display: inline-block;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   width: 12px;
   height: 12px;
   padding: 0;
@@ -198,7 +200,7 @@
   vertical-align: middle;
 }
 .glide__bullets > *.active {
-  background-color: white;
+  background-color: #0002df;
 }
 .glide__bullets > *:focus {
   outline: none;

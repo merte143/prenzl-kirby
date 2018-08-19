@@ -6,9 +6,9 @@ Intro:
 
 (columns...)
 
-# Mehr Einstellungen durch Social Media Nudeln.
+# Mehr Einstellungen durch Social Media Recruiting
 
-Viele KMU’s haben zunehmend Probleme qualifiziertes Personal für ihre offenen Stellen zu finden. Wir helfen.
+Gehört die Personalsuche bei Ihnen zu den schwierigsten Themen? Haben Sie das Gefühl, dass der Bewerbermarkt wie leergefegt ist? Wir helfen.
 
 (hr: t4)
 
@@ -67,7 +67,7 @@ Toggletopbar: 1
 
 ----
 
-Titletopbar: PrenzlMedia heute im Handelsblatt (link: https://handelsblatt.de text: Hier popup: yes class: btn-topbar)
+Titletopbar: PrenzlMedia heute im Handelsblatt (link: https://handelsblatt.de text: Zum Artikel popup: yes class: btn-topbar)
 
 ----
 
@@ -111,51 +111,57 @@ Image:
 
 ----
 
-Iconhow1: handelsblatt.png
+Iconhow1: graphic_socialmedia_1.png
 
 ----
 
-Titlehow1: Handelsblatt
+Titlehow1: Über Social Media Marketing Fachkräfte finden
 
 ----
 
-Texthow1: as
+Texthow1: Qualifizierte Arbeitskräfte in Deutschland zu finden wird jährlich schwerer. Die Arbeitslosigkeit ist auf einem Rekordtief. Viele Fachkräfte sind bereits in einem festen Anstellungsverhältnis. Wir nutzen Performance-Marketing, um für Ihr Unternehmen qualifizierte Arbeitnehmer zu gewinnen.
 
 ----
 
-Iconhow2: impulse.png
+Iconhow2: graphic_likes.png
 
 ----
 
-Titlehow2: das
+Titlehow2: Kandidaten erreichen, die nicht suchen
 
 ----
 
-Texthow2: das
+Texthow2: Viele Menschen suchen nicht aktiv nach Stellenangeboten auf Jobbörsen, sind aber offen für eine berufliche Veränderung. Wir erreichen diese “passiven Kandidaten” auf Social-Media-Plattformen und durch gezieltes Re-Targeting auf den Webseiten, wo sie sich aufhalten.
 
 ----
 
-Iconhow3: impulse.png
+Iconhow3: graphic_receive.png
 
 ----
 
-Titlehow3: das
+Titlehow3: Qualifizierte Kandidaten mit einem Klick erhalten
 
 ----
 
-Texthow3: das
+Texthow3: Einfach Jobanzeige hochladen, Budget einstellen und mit einem Klick loslegen. Die PrenzlMedia Performance-Marketing-Lösung veröffentlicht Ihre optimierte Anzeige automatisch auf über 50 Kanälen. Prenzlmedia nutzt dabei Premium-Platzierungen auf allen Kanälen. So garantieren wir, dass Ihr Job gefunden wird.
 
 ----
 
-Imageabout: social-media.png
+Imageabout: parker-whitson-467822-unsplash.jpg
 
 ----
 
-Titleabout: Ich musste erste lernen
+Titleabout: "Es ist unglaublich wichtig die richtigen Kanäle zu wählen"
 
 ----
 
-Textabout: Es war einmal ein Prenzl.
+Textabout: 
+
+Klassische Wege im Personalmarketing, wie z.B. Inserate in der Tageszeitung oder auf Karrierewebseiten funktionieren heute längst nicht mehr so gut wie früher. Gerade kleine und mittelständige Unternehmen setzen allerdings nach wie vor auf diese Medien und verlieren so als Arbeitgeber immer mehr an Sichtbarkeit und Reichweite.
+
+Das Problem dabei liegt oftmals nicht in der fehlenden Attraktivität der Arbeitsplätze, sondern viel mehr an dem Mismatch zwischen gewähltem Kanal und der zu erreichenden Zielgruppe: Wer junge Talente finden will, muss zuallererst an den richtigen Orten suchen!
+
+Daher unsere Empfehlung: Setzen sie dort an, wo junge Menschen heutzutage einen Großteil ihrer Zeit verbringen – in den sozialen Medien. Facebook & Co. sind aus dem Alltag vieler Menschen nicht mehr wegzudenken. In Deutschland sind wir mehrere Stunden am Tag online und nutzen dabei auch verschiedene Social-Media-Kanäle wie z.B. Facebook. (1)
 
 ----
 
@@ -191,39 +197,42 @@ Textadvantages4: Teste
 
 ----
 
-Titlepro1: Vorteil 1
+Titlepro1: Mehr Bewerbungen
 
 ----
 
-Textpro1: Test
+Textpro1: Gerade für kleinere und mittelständische Unternehmen ist es häufig schwierig als potenzieller Arbeitgeber wahrgenommen zu werden. Daher erweitern wir den Bewerberpool um ein Vielfaches, indem wir Kandidaten/innen ansprechen, die das Unternehmen bislang noch nicht kennen oder derzeit nicht aktiv auf Jobsuche sind.
 
 ----
 
-Titlepro2: Vorteil 2
+Titlepro2: Passende Kandidaten
 
 ----
 
-Textpro2: Test
+Textpro2: Jede unserer Kampagnen ist präzise auf Ihre konkreten Anforderungen für die offene Stelle angepasst. Hierdurch stellen wir sicher, dass Ihre Anzeige nur relevanten Kandidaten/innen gezeigt wird und dadurch die Anzahl der hochwertigen Bewerbungen steigt.
 
 ----
 
-Titlepro3: Vorteil 3
+Titlepro3: Geringes Risiko
 
 ----
 
-Textpro3: Test
+Textpro3: 
+
+Probieren Sie es gerne einfach aus.
+Kontaktieren Sie uns gerne: In einem kostenlosen Beratungsgespräch schauen wir, ob PrenzlMedia zu Ihren Anforderungen passt.
 
 ----
 
-Titlepro4: Vorteil 4
+Titlepro4: Zeit sparen
 
 ----
 
-Textpro4: Test
+Textpro4: Nachdem wir die Stellenanzeige von Ihnen bekommen haben, übernehmen wir die komplette Personalsuche für Sie. Das bedeutet: Sie können sich wieder voll und ganz auf das Tagesgeschäft konzentrieren!
 
 ----
 
-Imagetestimonial1: impulse.png
+Imagetestimonial1: phil.png
 
 ----
 
@@ -235,15 +244,15 @@ Texttestimonial1: "Es war mir eine Ehre mit prenzl zu arbeiten."
 
 ----
 
-Imagetestimonial2: impulse.png
+Imagetestimonial2: phil.png
 
 ----
 
-Titletestimonial2: das
+Titletestimonial2: Timo, 27 Gründer Joidy GmbH
 
 ----
 
-Texttestimonial2: das
+Texttestimonial2: "Mir auch!"
 
 ----
 

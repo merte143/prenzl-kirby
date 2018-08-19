@@ -7,13 +7,13 @@
 .intro-illustration {
   position: absolute;
   right: 0;
-  top: 100px;
+  top: 110px;
   width: 720px;
 }
 
 .press-logo {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 35px;
   vertical-align: middle;
   img {
     margin: 15px 0;
@@ -64,6 +64,7 @@
   height: $topbar-height;
   p {
     padding: 8px 0;
+    font-size: 17px;
   }
   .btn-topbar {
     padding: 3px 12px;
@@ -136,4 +137,155 @@
       }
     }
 	}
+}
+
+// HOW IT WORKS
+
+.how-it-works.listing-compact {
+	margin: 0 auto $sp1 auto;
+	padding: 0 20px 0 30px;
+	.item {
+		width: 33%;
+		float: left;
+    padding: 0 35px 0 0;
+		margin: 0;
+		@media #{$bm} {
+		    width: auto;
+			margin-bottom: $sp2;
+		}
+		&:hover {
+			img {
+				transform: scale3d(1.02,1.02,1.02);
+				transition: .3s all ease;
+			}
+			h3 {
+				a {
+					border-bottom-color: $ca1;
+				}
+			}
+		}
+		.image-listing {
+      margin: 20px 0 30px;
+			img {
+				margin: 0 0 $sp3/2 0;
+        transition: .5s all ease;
+        max-width: 326px;
+			}
+		}
+		h3 {
+			line-height: 1.5;
+      margin: 0 0 10px 0;
+      font-size: 22px;
+		}
+		.meta-container {
+			margin: 8px 0 10px 0;
+			padding: 0;
+		}
+	}
+}
+
+// ADVANTAGES
+
+.advantages.listing-compact {
+	margin: 0 auto $sp1 auto;
+	padding: 0 20px 0 30px;
+	.item {
+		width: 25%;
+		float: left;
+    padding: 0 35px;
+		margin: 0;
+		@media #{$bm} {
+		  width: auto;
+			margin-bottom: $sp2;
+		}
+		&:hover {
+			img {
+				transform: scale3d(1.02,1.02,1.02);
+				transition: .3s all ease;
+			}
+			h3 {
+				a {
+					border-bottom-color: $ca1;
+				}
+			}
+		}
+		.image-listing {
+      margin: 20px 0 30px;
+			img {
+				margin: 0 0 $sp3/2 0;
+        transition: .5s all ease;
+        max-width: 326px;
+			}
+		}
+		h3 {
+			line-height: 1.5;
+      margin: 0 0 10px 0;
+      font-size: 22px;
+		}
+		.meta-container {
+			margin: 8px 0 10px 0;
+			padding: 0;
+		}
+	}
+}
+
+section {
+  padding: 30px 0;
+}
+
+.divider {
+  width: 100px;
+  height: 4px;
+  background-color: $ca1;
+  display: inline-block;
+  margin: 40px 0 0;
+}
+
+.about-text {
+  padding: 50px 70px;
+  h2 {
+    font-size: 32px;
+    line-height: 1.4em;
+  }
+}
+
+// TESTIMONIALS
+
+.testimonials {
+  .image-wrapper {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 30px;
+    img {
+      border-radius: 50%;
+    }
+  }
+  .text-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px;
+    p {
+      font-size: 34px;
+      color: #111;
+      font-weight: 600;
+    }
+    h3 {
+      font-weight: 100;
+    }
+  }
+}
+
+// CONTACT FORM
+.contact-form {
+  input[type="submit" i] {
+    margin: 0;
+    padding: 6px 30px;
+    line-height: 42px;
+    overflow: hidden;
+    position: relative;
+    border: 0;
+    color: #fff !important;
+    background: #0002df;
+  }
 }

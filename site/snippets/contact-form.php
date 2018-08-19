@@ -1,4 +1,4 @@
-<div class="wrap-lg">
+<div class="wrap-lg contact-form">
     <div class="section-heading">
         <h2>Kontaktiere uns</h2>
     </div>

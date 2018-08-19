@@ -22,7 +22,8 @@
 
         <div class="wrap-lg">
             <div class="section-heading big">
-                <h2>How it works</h2>
+                <h2>So funktioniert's</h2>
+                <div class="divider"></div>
             </div>
         </div>
 
@@ -33,12 +34,6 @@
 
             snippet('how-it-works');
         ?>
-
-        <div class="wrap-lg">
-            <div class="button-container">
-                <a href="https://gum.co/kollapse" rel="noopener noreferrer" class="btn" target="_blank">Kostenlos anfragen</a>
-            </div>
-        </div>
 
     </section>
 
@@ -58,7 +53,8 @@
 
         <div class="wrap-lg">
             <div class="section-heading big">
-                <h2>Advantages</h2>
+                <h2>Ihre Vorteile</h2>
+                <div class="divider"></div>
             </div>
         </div>
 
@@ -80,47 +76,27 @@
 
     <section>
 
-    <?php
-        // -------------------------------------------------
-        // Testimonials
-        // -------------------------------------------------
+      <?php
+          // -------------------------------------------------
+          // Testimonials
+          // -------------------------------------------------
 
-        snippet('slider-testimonials');
-    ?>
-
-     <section class="grey-bg">
-
-        <div class="wrap-lg">
-            <div class="section-heading big">
-                <h2>Pricing</h2>
-            </div>
-        </div>
-
-        <?php
-            // -------------------------------------------------
-            // Pricing
-            // -------------------------------------------------
-
-            snippet('pricing');
-        ?>
-
-        <div class="wrap-lg">
-            <div class="button-container">
-                <a href="https://gum.co/kollapse" rel="noopener noreferrer" class="btn" target="_blank">Kostenlos anfragen</a>
-            </div>
-        </div>
+          snippet('slider-testimonials');
+      ?>
 
     </section>
 
+    <section class="grey-bg">
+
+      <?php
+          // -------------------------------------------------
+          // Contact Form
+          // -------------------------------------------------
+
+          snippet('contact-form');
+      ?>
+
     </section>
-
-    <?php
-        // -------------------------------------------------
-        // Contact Form
-        // -------------------------------------------------
-
-        snippet('contact-form');
-    ?>
 
     <section class="color-bg">
 

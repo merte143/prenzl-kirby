@@ -11,7 +11,7 @@
     </div>
 
     <div class="col-right">
-
+      <div class="about-text">
         <header>
             <h2>
               <?= $page->titleAbout()->html() ?>
@@ -27,7 +27,7 @@
         <div class="button-container left">
             <a href="https://gum.co/kollapse" rel="noopener noreferrer" class="btn" target="_blank">Kostenlos anfragen</a>
         </div>
-
+      </div>
     </div>
 
     <div class="cf"></div>

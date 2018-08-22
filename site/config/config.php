@@ -29,6 +29,7 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
 
+c::set('ka.cookie.link', 'impressum#deactivate-cookie');
 
 /*
 ---------------------------------------

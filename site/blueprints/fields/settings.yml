@@ -37,3 +37,8 @@ fields:
     type:  text
     width: 1/2
     help: Change text in topbar
+  titletopbarmobile:
+    label: Title Topbar Mobile
+    type:  text
+    width: 1/2
+    help: Change text in topbar mobile

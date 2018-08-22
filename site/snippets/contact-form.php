@@ -4,25 +4,41 @@
         <p>Sie erklären sich damit einverstanden, dass Ihre Daten zur Bearbeitung Ihres Anliegens verwendet werden. Weitere Informationen und Widerrufshinweise finden Sie in unserer Datenschutzerklärung.</p>
     </div>
 
-    <form class="form" action="<?php echo $page->url() ?>" method="POST">
-        <label>Email</label>
-        <input<?php if ($form->error('email')): ?> class="error"<?php endif; ?> name="email" type="email" value="<?php echo $form->old('email') ?>">
+    <?php if ($form->success()): ?>
+      <div class="form-success">
+        Vielen Dank für ihre Nachricht. Wir melden uns schnellstmöglich bei ihnen.
+      </div>
+    <?php elseif ($form->error()) : ?>
+      <div class="form-fail">
+        <?php snippet('uniform/errors', ['form' => $form]) ?>
+      </div>
+    <?php endif; ?>
 
-        <label>Name</label>
-        <input<?php if ($form->error('name')): ?> class="error"<?php endif; ?> name="name" type="text" value="<?php echo $form->old('name') ?>">
+    <form class="form" action="<?php echo $page->url() ?>#contact-form" method="POST">
 
-        <label>Message</label>
-        <textarea<?php if ($form->error('message')): ?> class="error"<?php endif; ?> name="message"><?php echo $form->old('message') ?></textarea>
+        <label>Ihr Name</label>
+        <input<?php if ($form->error('name')): ?> class="error"<?php endif; ?> name="name" placeholder="Max Mustermann" type="text" value="<?php echo $form->old('name') ?>">
+
+        <label>Ihr Unternehmen</label>
+        <input<?php if ($form->error('company')): ?> class="error"<?php endif; ?> name="company" placeholder="Muster GmbH" type="text" value="<?php echo $form->old('company') ?>">
+
+        <label>Ihre E-Mail Adresse</label>
+        <input<?php if ($form->error('email')): ?> class="error"<?php endif; ?> name="email" placeholder="max.mustermann@muster.de" type="email" value="<?php echo $form->old('email') ?>">
+
+        <label>Ihre Telefonnummer (optional)</label>
+        <input<?php if ($form->error('phone')): ?> class="error"<?php endif; ?> name="phone" placeholder="030 12345" type="text" value="<?php echo $form->old('phone') ?>">
+
+        <label>Branche und Anzahl der Mitarbeiter</label>
+        <textarea<?php if ($form->error('message')): ?> class="error"<?php endif; ?> placeholder="Lastkraftfahrer, ca. 5 jährlich" name="message"><?php echo $form->old('message') ?></textarea>
+
+        <label class="checkbox">
+           <input type="checkbox" name="privacy"/> 
+           Sie erklären sich damit einverstanden, dass Ihre Daten zur Bearbeitung Ihres Anliegens verwendet werden. Weitere Informationen und Widerrufshinweise finden Sie in unserer Datenschutzerklärung.
+        </label>
 
         <?php echo csrf_field() ?>
         <?php echo honeypot_field() ?>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Kostenlos anfragen">
     </form>
-
-    <?php if ($form->success()): ?>
-        Thank you for your message. We will get back to you soon!
-    <?php else: ?>
-        <?php snippet('uniform/errors', ['form' => $form]) ?>
-    <?php endif; ?>
     
 </div>

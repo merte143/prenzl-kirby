@@ -21,7 +21,7 @@ Gehört die Personalsuche bei Ihnen zu den schwierigsten Themen? Haben Sie das G
 
 ++++
 
-(image: social-media.png class: intro-illustration)
+(image: graphic_socialmedia_2.png class: intro-illustration)
 
 (...columns)
 
@@ -319,3 +319,7 @@ Wie Sie den größten Talentpool Deutschlands für Ihr Unternehmen nutzen, um so
 (link: https://mailchi.mp/3710fb559362/e-book text: Jetzt herunterladen popup: yes class: btn)
 
 (...columns)
+
+----
+
+Titletopbarmobile: Beratungsgespräch? (link: #contact-form text: Hier popup: yes class: btn-topbar)

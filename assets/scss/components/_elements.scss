@@ -677,12 +677,12 @@ div.featherlight {
 // Form
 // -------------------------------------------------------
 .form {
-	margin-top: $sp2;
+	margin-top: 5px;
 	border-radius: $br;
 	label {
 		display: block;
-		margin-bottom: 5px;
-		font-size: 14px;
+		margin: 10px 0 5px;
+		font-size: 16px;
 		font-weight: 400;
 	}
 	input[type=text],
@@ -691,9 +691,9 @@ div.featherlight {
 		width: 100%;
 		border: 0;
 		border-bottom: 1px solid $cStroke;
-		margin-bottom: 30px;
-		padding: $sp3/2 0;
-		background: transparent;
+		margin-bottom: 10px;
+		padding: 15px 10px;
+		background: #fff;
 		color: $c1;
 		&:focus {
 			border-color: $ca1;
@@ -706,8 +706,9 @@ div.featherlight {
 		width: 100%;
 		border: 0;
 		border-bottom: 1px solid $cStroke;
-		margin-bottom: 30px;
-		background: none;
+		margin-bottom: 10px;
+		padding: 10px;
+		background: #fff;
 		&:focus {
 			outline: none;
 			color: $c1;
@@ -715,6 +716,7 @@ div.featherlight {
 	}
 
 	input[type=submit] {
-		border: 0;
+    border: 0;
+    margin: 20px auto 0;
 	}
 }

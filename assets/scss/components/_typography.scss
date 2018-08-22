@@ -81,7 +81,10 @@ h1,
 	animation: .5s textAnimation forwards;
 	animation-delay: .5s;
 	opacity: 0;
-	transform: translateY(30%);
+  transform: translateY(30%);
+  @media #{$bm} {
+    font-size: 26px;
+  }
 }
 @keyframes textAnimation {
 	from {

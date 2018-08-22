@@ -427,7 +427,7 @@ body.navstandard .offcanvas {
 	clear: both;
 
 	font-size: 11px;
-	text-align: left;
+	text-align: center;
 
 	color: $c3;
 	a {
@@ -481,6 +481,13 @@ body.navstandard .offcanvas {
 	font-family: $ff2;
 	font-weight: 100;
 	padding: $sp1*1.7 0 30px 0;
+  @media #{$bm} {
+      padding: 70px 0 30px 0;
+  }
+
+  .column {
+    position: relative;
+  }
 
 	.content-container & {
 		opacity: 0;
@@ -499,7 +506,10 @@ body.navstandard .offcanvas {
 		margin-top: 0;
 	}
 	h1 {
-		font-size: 45px;
+    font-size: 45px;
+    @media #{$bm} {
+      font-size: 28px;
+    }
 	}
 	.wrap {
 		padding-right: $sp2;
@@ -553,6 +563,9 @@ body.navstandard .offcanvas {
     margin: 0;
     text-align: center;
     display: block;
+    @media #{$bm} {
+      padding: 40px 0 30px 0;
+    }
     h2 {
       font-size: 44px;
       @media #{$bm} {

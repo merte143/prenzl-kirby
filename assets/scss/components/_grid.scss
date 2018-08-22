@@ -67,13 +67,13 @@ img {
 	// padding: 0 $sp1;
 	float: none;
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1250px;
+  padding: 0 25px;
 	// padding: 0 $sp2;
 	// border: 1px solid red;
 	@media #{$bm} {
 		width: 100%;
     max-width: none;
-    padding: 0 15px;
 	}
 	// background: red;
 }
@@ -115,7 +115,7 @@ img {
 .column {
   display: inline-block;
   vertical-align: top;
-  padding-right: 2rem;
+  padding-right: 1rem;
 }
 .columns-1 .column {
   width: 100%;
@@ -128,7 +128,7 @@ img {
   width: 50%;
   @media #{$bm} {
       width: 100%;
-	  margin-bottom: $sp2;
+	  margin-bottom: 10px;
   }
 }
 .columns-3 .column {

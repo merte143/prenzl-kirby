@@ -1,0 +1,8 @@
+title: Impressum
+
+pages: false
+
+fields:
+  impressum:
+    label: Impressum
+    type:  textarea

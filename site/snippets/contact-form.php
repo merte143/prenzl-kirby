@@ -1,12 +1,12 @@
 <div class="wrap-lg contact-form" id="contact-form">
     <div class="section-heading big">
-        <h2>Jetzt ein kostenloses Beratungsgespräch vereinbaren</h2>
-        <p>Sie erklären sich damit einverstanden, dass Ihre Daten zur Bearbeitung Ihres Anliegens verwendet werden. Weitere Informationen und Widerrufshinweise finden Sie in unserer Datenschutzerklärung.</p>
+        <h2><?= $page->titleContactform()->html() ?></h2>
+        <p><?= $page->textContactform()->html() ?></p>
     </div>
 
     <?php if ($form->success()): ?>
       <div class="form-success">
-        Vielen Dank für ihre Nachricht. Wir melden uns schnellstmöglich bei ihnen.
+        <?= $page->successContactform()->html() ?>
       </div>
     <?php elseif ($form->error()) : ?>
       <div class="form-fail">

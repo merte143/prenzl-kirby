@@ -323,3 +323,19 @@ Wie Sie den größten Talentpool Deutschlands für Ihr Unternehmen nutzen, um so
 ----
 
 Titletopbarmobile: Beratungsgespräch? (link: #contact-form text: Hier popup: yes class: btn-topbar)
+
+----
+
+Titlecontactform: Jetzt ein kostenloses Beratungsgespräch vereinbaren
+
+----
+
+Textcontactform: Darum sollten sie mit mir sprechen.
+
+----
+
+Successcontactform: Vielen Dank für ihre Nachricht. Wir melden uns schnellstmöglich bei ihnen.
+
+----
+
+Failcontactform: 

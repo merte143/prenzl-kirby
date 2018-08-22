@@ -1,0 +1,17 @@
+type: group
+fields:
+  headlineContactform:
+    label: Contactform
+    type: headline
+
+  titleContactform:
+    label: Title
+    type:  text
+
+  textContactform:
+    label: Text
+    type:  text
+
+  successContactform:
+    label: Success
+    type:  text

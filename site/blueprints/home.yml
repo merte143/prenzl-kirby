@@ -30,3 +30,6 @@ fields:
 
   ebookgroup:
     extends: ebook
+
+  contactformgroup:
+    extends: contact-form

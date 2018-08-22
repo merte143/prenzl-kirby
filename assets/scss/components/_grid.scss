@@ -72,7 +72,8 @@ img {
 	// border: 1px solid red;
 	@media #{$bm} {
 		width: 100%;
-		max-width: none;
+    max-width: none;
+    padding: 0 15px;
 	}
 	// background: red;
 }
@@ -169,9 +170,15 @@ img {
 .col-left {
   width: 30%;
   float: left;
+  @media #{$bm} {
+    width: 100%;
+  }
 }
 
 .col-right {
   width: 70%;
   float: left;
+  @media #{$bm} {
+    width: 100%;
+  }
 }

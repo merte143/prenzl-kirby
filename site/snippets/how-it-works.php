@@ -1,4 +1,4 @@
-<div class="wrap-lg listing-compact how-it-works">
+<div class="wrap-lg listing-compact how-it-works" id="how-it-works">
 
     <div>
 
@@ -77,6 +77,6 @@
       <div class="cf"></div>
     </div>
     <div class="button-container">
-        <a href="https://gum.co/kollapse" rel="noopener noreferrer" class="btn" target="_blank">Kostenlos anfragen</a>
+        <a href="#contact-form" class="btn">Kostenlos anfragen</a>
     </div>
 </div>

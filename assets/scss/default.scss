@@ -255,7 +255,7 @@ body.navstandard .offcanvas {
 			margin-top: 0;
 			position: relative;
 			top: 2px;
-			padding: 0 0 0 50px;
+			padding: 0 0 0 40px;
 
 			// Clickable Anchor
 			// ------------------------------
@@ -263,7 +263,7 @@ body.navstandard .offcanvas {
 				color: $c2;
 				float: left;
 				padding: 0;
-				font-size: 18px;
+				font-size: 17px;
 				font-weight: normal;
 				border-bottom-color: transparent;
 				&.active {
@@ -444,7 +444,6 @@ body.navstandard .offcanvas {
 		font-family: $ff2;
 		font-weight: 100;
 		color: $c2;
-		width: 90%;
 		@media #{$bm} {
 		    width: auto;
 		}
@@ -466,7 +465,10 @@ body.navstandard .offcanvas {
 	}
 
 	.colophon {
-		margin-top: $sp1;
+    margin-top: $sp1;
+    p {
+      font-size: 16px;
+    }
 	}
 }
 
@@ -553,6 +555,9 @@ body.navstandard .offcanvas {
     display: block;
     h2 {
       font-size: 44px;
+      @media #{$bm} {
+        font-size: 26px;
+      }
     }
   }
 	h2 {

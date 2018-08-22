@@ -1,4 +1,4 @@
-<div class="wrap-lg listing-compact advantages">
+<div class="wrap-lg listing-compact advantages" id="advantages">
 
     <div class="item index">
 

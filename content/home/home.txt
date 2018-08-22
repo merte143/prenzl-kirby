@@ -12,7 +12,7 @@ Gehört die Personalsuche bei Ihnen zu den schwierigsten Themen? Haben Sie das G
 
 (hr: t4)
 
-(link: https://gum.co/kollapse text: Kostenlos anfragen popup: yes class: btn)
+(link: #contact-form text: Kostenlos anfragen class: btn)
 
 (text: Bekannt aus: class: small)
 (image: handelsblatt.png class: press-logo hb)
@@ -67,7 +67,7 @@ Toggletopbar: 1
 
 ----
 
-Titletopbar: PrenzlMedia heute im Handelsblatt (link: https://handelsblatt.de text: Zum Artikel popup: yes class: btn-topbar)
+Titletopbar: Direkt Beratungsgespräch vereinbaren (link: https://prenzlmedia.de text: Hier entlang popup: yes class: btn-topbar)
 
 ----
 
@@ -308,14 +308,14 @@ Textebook:
 
 (columns...)
 
-(image: social-media.png)
+(image: a79545c3-8834-4e16-a735-44bf143e2177.png class: ebook-preview)
 
 ++++
 
-# Lad dir mein Ebook
+# Erfahren sie mehr über die Vorteile von Social Media Recruiting
 
-Viele KMU’s haben zunehmend Probleme qualifiziertes Personal für ihre offenen Stellen zu finden. Wir helfen.
+Wie Sie den größten Talentpool Deutschlands für Ihr Unternehmen nutzen, um sofort mehr passende Bewerbungen zu erhalten. Klassische Wege im Personalmarketing, wie z.B. Inserate in der Tageszeitung oder auf Karrierewebseiten funktionieren heute längst nicht mehr so gut wie früher. Gerade kleine und mittelständige Unternehmen setzen allerdings nach wie vor auf diese Medien und verlieren so als Arbeitgeber immer mehr an Sichtbarkeit und Reichweite.
 
-(link: https://gum.co/kollapse text: Jetzt herunterladen popup: yes class: btn)
+(link: https://mailchi.mp/3710fb559362/e-book text: Jetzt herunterladen popup: yes class: btn)
 
 (...columns)

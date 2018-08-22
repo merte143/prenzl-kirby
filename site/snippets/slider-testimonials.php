@@ -1,4 +1,4 @@
-<div class="wrap-lg testimonials">
+<div class="wrap-lg testimonials" id="testimonials">
     <div class="slider glide">
         <div class="glide__arrows">
             <button class="glide__arrow prev" data-glide-dir="<">◀</button>

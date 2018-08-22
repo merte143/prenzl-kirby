@@ -35,6 +35,10 @@
 }
 
 .contact-form {
+  padding: 0 160px;
+  @media #{$bm} {
+    padding: 0 10px;
+  }
   input, label {
     display: block;
   }
@@ -85,7 +89,7 @@
 }
 
 .color-bg {
-  background-color: yellow;
+  background-color: #d2d5e8;
 }
 
 .button-container {
@@ -151,7 +155,8 @@
 		margin: 0;
 		@media #{$bm} {
 		    width: auto;
-			margin-bottom: $sp2;
+      margin-bottom: $sp2;
+      padding: 0;
 		}
 		&:hover {
 			img {
@@ -243,6 +248,9 @@ section {
 
 .about-text {
   padding: 50px 70px;
+  @media #{$bm} {
+    padding: 30px 30px;
+  }
   h2 {
     font-size: 32px;
     line-height: 1.4em;
@@ -279,8 +287,8 @@ section {
 // CONTACT FORM
 .contact-form {
   input[type="submit" i] {
-    margin: 0;
-    padding: 6px 30px;
+    margin: 0 auto;
+    padding: 6px 100px;
     line-height: 42px;
     overflow: hidden;
     position: relative;
@@ -289,3 +297,22 @@ section {
     background: #0002df;
   }
 }
+
+// EBOOK
+.ebook {
+  padding: 0px 60px;
+  .ebook-preview {
+    width: 450px;
+    margin: 0 60px;
+    @media #{$bm} {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  h1 {
+    margin: 60px 0 0;
+  }
+  p {
+    margin: 60px 0;
+  }
+} 

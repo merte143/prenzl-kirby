@@ -1,6 +1,7 @@
-<div class="wrap-lg contact-form">
-    <div class="section-heading">
-        <h2>Kontaktiere uns</h2>
+<div class="wrap-lg contact-form" id="contact-form">
+    <div class="section-heading big">
+        <h2>Jetzt ein kostenloses Beratungsgespräch vereinbaren</h2>
+        <p>Sie erklären sich damit einverstanden, dass Ihre Daten zur Bearbeitung Ihres Anliegens verwendet werden. Weitere Informationen und Widerrufshinweise finden Sie in unserer Datenschutzerklärung.</p>
     </div>
 
     <form class="form" action="<?php echo $page->url() ?>" method="POST">

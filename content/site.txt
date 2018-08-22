@@ -14,7 +14,12 @@ Copyright: © (date: Year) by Tobias Heers
 
 ----
 
-Footer: Prenzl ist toll (email:t.heers@prenzlmedia.de text: drop me a line class: highlight)
+Footer: 
+
+Made with love in Berlin.
+
+(link: /impressum text: Impressum class: highlight)
+(link: /datenschutz text: Datenschutz class: highlight)
 
 ----
 
@@ -26,19 +31,19 @@ Socialfacebook:
 
 ----
 
-Socialtwitter: http://twitter.com/yordanoff
+Socialtwitter: 
 
 ----
 
-Sociallinkedin: http://linkedin.com/in/yordanoff
+Sociallinkedin: 
 
 ----
 
-Socialinstagram: http://instagram.com/yordanoff
+Socialinstagram: 
 
 ----
 
-Socialdribbble: http://dribbble.com/yordanoff
+Socialdribbble: 
 
 ----
 
@@ -46,7 +51,7 @@ Socialbehance:
 
 ----
 
-Socialgithub: http://github.com/yordanoff
+Socialgithub: 
 
 ----
 
@@ -74,7 +79,7 @@ Socialspotify:
 
 ----
 
-Socialemail: joro@yordanoff.net
+Socialemail: info@prenzlmedia.de
 
 ----
 
@@ -119,6 +124,16 @@ Paginationblog: 3
 ----
 
 Googleanalytics: 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124253621-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-124253621-1');
+</script>
 
 ----
 

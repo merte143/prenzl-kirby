@@ -68,7 +68,7 @@
 
         <div class="wrap-lg">
             <div class="button-container">
-                <a href="https://gum.co/kollapse" rel="noopener noreferrer" class="btn" target="_blank">Kostenlos anfragen</a>
+                <a href="#contact-form" class="btn">Kostenlos anfragen</a>
             </div>
         </div>
 

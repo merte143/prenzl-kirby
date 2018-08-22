@@ -1,4 +1,4 @@
-<div class="wrap-lg about-us">
+<div class="wrap-lg about-us" id="about-us">
 
     <div class="col-left">
 
@@ -25,7 +25,7 @@
         </div>
 
         <div class="button-container left">
-            <a href="https://gum.co/kollapse" rel="noopener noreferrer" class="btn" target="_blank">Kostenlos anfragen</a>
+            <a href="#contact-form" class="btn">Kostenlos anfragen</a>
         </div>
       </div>
     </div>

@@ -29,7 +29,7 @@
         <input<?php if ($form->error('phone')): ?> class="error"<?php endif; ?> name="phone" placeholder="030 12345" type="text" value="<?php echo $form->old('phone') ?>">
 
         <label>Branche und Anzahl der Mitarbeiter</label>
-        <textarea<?php if ($form->error('message')): ?> class="error"<?php endif; ?> placeholder="Lastkraftfahrer, ca. 5 jährlich" name="message"><?php echo $form->old('message') ?></textarea>
+        <textarea<?php if ($form->error('sector')): ?> class="error"<?php endif; ?> placeholder="Lastkraftfahrer, ca. 5 jährlich" name="sector"><?php echo $form->old('sector') ?></textarea>
 
         <label class="checkbox">
            <input type="checkbox" name="privacy"/> 

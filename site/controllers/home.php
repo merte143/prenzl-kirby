@@ -10,21 +10,21 @@ return function ($site, $pages, $page)
             'message' => 'Bitte geben sie eine gültige E-Mail Adresse an.',
         ],
         'name' => [
-            'rules' => ['required', 'name'],
+            'rules' => ['required'],
             'message' => 'Bitte geben sie einen Namen an.',
         ],
         'company' => [
-            'rules' => ['required', 'company'],
+            'rules' => ['required'],
             'message' => 'Bitte geben sie den Namen ihrer Firma an.',
         ],
         'sector' => [
-            'rules' => ['required', 'sector'],
+            'rules' => ['required'],
             'message' => 'Bitte beschreiben sie ihr Gesuch mit wenigen Worten.',
         ],
         'privacy' => [
             'rules' => ['required'],
             'message' => 'Bitte bestätigen sie, dass sie mit den Datenschutzbestimmungen einverstanden sind.',
-        ],
+        ]
     ]);
 
     if (r::is('POST')) {

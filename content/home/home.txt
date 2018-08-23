@@ -12,7 +12,7 @@ Gehört die Personalsuche bei Ihnen zu den schwierigsten Themen? Haben Sie das G
 
 (hr: t4)
 
-(link: #contact-form text: Kostenlos anfragen class: btn)
+(link: #contact-form text: Kostenloses Beratungsgespräch class: btn)
 
 (text: Bekannt aus: class: small)
 (image: handelsblatt.png class: press-logo hb)

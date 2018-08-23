@@ -336,13 +336,15 @@ section {
     text-align: center;
   }
   .image-wrapper {
-    width: 250px;
-    height: 250px;
+    width: 170px;
+    height: 170px;
     display: inline-block;
     margin: 30px;
+    position: absolute;
     @media #{$bm} {
       width: 180px;
       height: 180px;
+      position: relative;
     }
     img {
       border-radius: 50%;
@@ -352,9 +354,11 @@ section {
     display: inline-block;
     vertical-align: top;
     margin: 30px;
+    padding-left: 250px;
     @media #{$bm} {
       width: 100%;
       margin: 0;
+      padding-left: 0;
     }
     p {
       font-size: 34px;

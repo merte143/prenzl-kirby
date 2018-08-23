@@ -77,6 +77,6 @@
       <div class="cf"></div>
     </div>
     <div class="button-container">
-        <a href="#contact-form" class="btn">Kostenlos anfragen</a>
+        <a href="#contact-form" class="btn">Kostenloses Beratungsgespräch</a>
     </div>
 </div>

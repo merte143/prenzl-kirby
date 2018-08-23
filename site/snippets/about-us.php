@@ -25,7 +25,7 @@
         </div>
 
         <div class="button-container left">
-            <a href="#contact-form" class="btn">Kostenlos anfragen</a>
+            <a href="#contact-form" class="btn">Kostenloses Beratungsgespräch</a>
         </div>
       </div>
     </div>

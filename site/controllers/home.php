@@ -17,7 +17,11 @@ return function ($site, $pages, $page)
             'rules' => ['required'],
             'message' => 'Bitte geben sie den Namen ihrer Firma an.',
         ],
-        'sector' => [
+        'phone' => [
+            'rules' => ['required'],
+            'message' => 'Bitte geben sie eine Telefonnummer an.',
+        ],
+        'position' => [
             'rules' => ['required'],
             'message' => 'Bitte beschreiben sie ihr Gesuch mit wenigen Worten.',
         ],

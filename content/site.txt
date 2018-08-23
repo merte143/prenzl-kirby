@@ -19,7 +19,8 @@ Footer:
 Made with love in Berlin.
 
 (link: /impressum text: Impressum class: highlight)
-(link: /datenschutz text: Datenschutz class: highlight)
+(link: /impressum text: Datenschutz class: highlight)
+(link: https://google.de text: E-Book laden class: highlight)
 
 ----
 

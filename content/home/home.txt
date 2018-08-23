@@ -6,9 +6,9 @@ Intro:
 
 (columns...)
 
-# Mehr Einstellungen durch Social Media Recruiting
+# Mehr passende Bewerbungen und Einstellungen durch Social-Media-Marketing.
 
-Gehört die Personalsuche bei Ihnen zu den schwierigsten Themen? Haben Sie das Gefühl, dass der Bewerbermarkt wie leergefegt ist? Wir helfen.
+Gehört die Personalsuche bei Ihnen zu den schwierigsten Themen? Haben Sie das Gefühl, dass der.
 
 (hr: t4)
 
@@ -306,19 +306,11 @@ Listpricing3:
 
 Textebook: 
 
-(columns...)
-
-(image: a79545c3-8834-4e16-a735-44bf143e2177.png class: ebook-preview)
-
-++++
-
 # Erfahren sie mehr über die Vorteile von Social Media Recruiting
 
-Wie Sie den größten Talentpool Deutschlands für Ihr Unternehmen nutzen, um sofort mehr passende Bewerbungen zu erhalten. Klassische Wege im Personalmarketing, wie z.B. Inserate in der Tageszeitung oder auf Karrierewebseiten funktionieren heute längst nicht mehr so gut wie früher. Gerade kleine und mittelständige Unternehmen setzen allerdings nach wie vor auf diese Medien und verlieren so als Arbeitgeber immer mehr an Sichtbarkeit und Reichweite.
+Wie Sie den größten Talentpool Deutschlands für Ihr Unternehmen nutzen, um sofort mehr passende Bewerbungen zu erhalten. Klassische Wege im Personalmarketing.
 
-(link: https://mailchi.mp/3710fb559362/e-book text: Jetzt herunterladen popup: yes class: btn)
-
-(...columns)
+(link: https://mailchi.mp/3710fb559362/e-book text: Jetzt herunterladen popup: yes class: btn fullscreen)
 
 ----
 

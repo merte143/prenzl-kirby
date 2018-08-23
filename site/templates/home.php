@@ -98,18 +98,6 @@
 
     </section>
 
-    <section class="color-bg">
-
-    <?php
-        // -------------------------------------------------
-        // E-Book
-        // -------------------------------------------------
-
-        snippet('ebook');
-    ?>
-
-    </section>
-
 </div>
 
 <?php snippet('footer') ?>

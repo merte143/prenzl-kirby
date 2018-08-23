@@ -328,6 +328,10 @@ section {
       bottom: 4%;
     }  
   }
+  .glide__bullets > *:focus {
+    background-color: #ccc;
+    border-color: #ccc;
+  }
   @media #{$bm} {
     text-align: center;
   }

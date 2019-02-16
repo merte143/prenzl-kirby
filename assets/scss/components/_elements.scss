@@ -208,7 +208,10 @@ button,
 	border-radius: 0;
 	font-weight: 400;
 	position: relative;
-	display: inline-block;
+  display: inline-block;
+  @media #{$bm} {
+    font-size: 16px;
+  }
 }
 button,
 a.btn,
@@ -220,7 +223,10 @@ a.btn,
 	position: relative;
 	border: 0;
 	color: #fff !important;
-	background: $ca1;
+  background: $ca1;
+  @media #{$bm} {
+    padding: 6px 15px;
+  }
 	&:hover {
 		border-color: $ca1;
 		span {

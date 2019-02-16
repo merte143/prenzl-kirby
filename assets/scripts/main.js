@@ -30,6 +30,25 @@ $(document).ready(function() {
 
 }); // document.ready
 
+function scrollToAnchor(tag){
+  // --------------------------------------------------
+	// Mobile Check
+	// --------------------------------------------------
+	var isMobile = $('#isMobile');
+
+	if( isMobile.css("display") == "block" ) {
+		isMobile = true;
+	} else {
+		isMobile = false;
+  }
+  
+  if (isMobile) {
+    window.location.href = "https://prenzlmedia.de#" + tag
+  } else {
+    var aTag = $("#"+ tag);
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+  }
+}
 
 function kollapseInit() {
 
@@ -98,6 +117,27 @@ function kollapseInit() {
 		e.preventDefault();
 		$('html, body').animate({ scrollTop: 0 }, 'fast');
 		$('html').toggleClass('nav-open');
+  });
+  
+  $('.mobile-menu-action').on('click', function(e){
+    e.preventDefault();
+    // toggle menu on mobile
+    if( $('.menu').hasClass('animate') ) {
+			$('.menu, .bar').removeClass('animate');
+      $('.hamburger-container').removeClass('animate');
+      if( isMobile && $('html').hasClass('nav-open') ) {
+        $('#canvas').css('overflow-y','initial');
+        $('html').toggleClass('nav-open');
+			}
+		} else {
+			$('.menu, .bar').addClass('animate');
+      $('.hamburger-container').addClass('animate');
+      if( isMobile ) {
+				$('#canvas').css('overflow-y','hidden');
+			}
+		}
+    var anchor = $(this).data('anchor');
+    scrollToAnchor(anchor);
 	});
 
 

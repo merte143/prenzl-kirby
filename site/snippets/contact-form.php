@@ -38,7 +38,7 @@
 
         <?php echo csrf_field() ?>
         <?php echo honeypot_field() ?>
-        <input type="submit" value="Kostenloses Beratungsgespräch">
+        <input type="submit" value="Anfrage absenden">
     </form>
     
 </div>

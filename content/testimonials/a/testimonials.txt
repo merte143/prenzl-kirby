@@ -1,0 +1,29 @@
+Headlinetestimonials: 
+
+----
+
+Imagetestimonial1: hat.png
+
+----
+
+Titletestimonial1: Prenzlmedia ist toll!
+
+----
+
+Texttestimonial1: Oh ja das its es.
+
+----
+
+Imagetestimonial2: 
+
+----
+
+Titletestimonial2: 
+
+----
+
+Texttestimonial2: 
+
+----
+
+Title: A

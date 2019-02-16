@@ -1,0 +1,29 @@
+Headlinetestimonials: 
+
+----
+
+Imagetestimonial1: hat.png
+
+----
+
+Titletestimonial1: Wundertoll!!
+
+----
+
+Texttestimonial1: Und dieser Web Dev dahinter erst..
+
+----
+
+Imagetestimonial2: 
+
+----
+
+Titletestimonial2: 
+
+----
+
+Texttestimonial2: 
+
+----
+
+Title: B

@@ -76,6 +76,11 @@
 
     <section>
 
+      <div class="section-heading big">
+          <h2>Unsere Kunden</h2>
+          <div class="divider"></div>
+      </div>
+
       <?php
           // -------------------------------------------------
           // Testimonials
@@ -83,6 +88,41 @@
 
           snippet('slider-testimonials');
       ?>
+
+    </section>
+
+    <section>
+
+      <div class="section-heading big">
+          <h2>NEW TESTIMONIALS</h2>
+          <div class="divider"></div>
+      </div>
+
+      <section class="wrap-lg" id="testimonial-list">
+
+        <?php $testimonials = $pages->find('testimonials')->children();?>
+
+        <?php foreach($testimonials as $testimonial): ?>
+
+          <div class="wrapper">
+            <div class="image-wrapper">
+                <?php if( $imageTestimonial1 = $testimonial->images()->find($testimonial->imageTestimonial1()) ): ?>
+                    <img src="<?= $imageTestimonial1->url() ?>" alt="customer" />
+                <?php endif; ?>
+            </div>
+            <div class="text-wrapper">
+                <p>
+                    <?= $testimonial->textTestimonial1()->html() ?>
+                </p>
+                <h3>
+                    <?= $testimonial->titleTestimonial1()->html() ?>
+                </h3>
+            </div>
+          </div>
+
+        <?php endforeach ?>
+
+      </section>
 
     </section>
 

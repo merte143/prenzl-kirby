@@ -4,7 +4,7 @@
 
         <div class="image-wrapper">
             <?php if( $image = $page->images()->find($page->imageAbout()) ): ?>
-                <img src="<?= $image->url() ?>" alt="" />
+                <img src="<?= $image->url() ?>" alt="prenzlmedia" />
             <?php endif; ?>
         </div>
 

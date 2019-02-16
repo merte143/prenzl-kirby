@@ -1,26 +1,26 @@
 <ul class="menu cf">
     <li>
-        <a href="<?= $site->url()?>/#how-it-works">
+        <a class="mobile-menu-action" data-anchor="how-it-works" href="<?= $site->url()?>/#how-it-works">
           So funktioniert's
         </a>
     </li>
     <li>
-        <a href="<?= $site->url()?>/#about-us">
+        <a class="mobile-menu-action" data-anchor="about-us" href="<?= $site->url()?>/#about-us">
           Über uns
         </a>
     </li>
     <li>
-        <a href="<?= $site->url()?>/#advantages">
+        <a class="mobile-menu-action" data-anchor="advantages" href="<?= $site->url()?>/#advantages">
           Ihre Vorteile
         </a>
     </li>
     <li>
-        <a href="<?= $site->url()?>/#testimonials">
-          Kunden
+        <a class="mobile-menu-action" data-anchor="testimonials" href="<?= $site->url()?>/#testimonials">
+          Unsere Kunden
         </a>
     </li>
     <li>
-        <a class="btn-contact" href="<?= $site->url()?>/#contact-form">
+        <a data-anchor="contact-form" class="btn-contact mobile-menu-action" href="<?= $site->url()?>/#contact-form">
           <img src="<?php echo url('assets/images/email.png') ?>" alt="mail">
           Kontakt
         </a>

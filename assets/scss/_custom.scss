@@ -94,7 +94,8 @@ a.btn-contact {
   margin-top: -4px;
   @media #{$bm} {
     color: #eee !important;
-    padding: 0;
+    padding: 0 !important;
+    border: none !important;
   }
   img {
     margin: 0;
@@ -195,6 +196,9 @@ a.btn-contact {
 // HOW IT WORKS
 
 .how-it-works.listing-compact {
+  .button-container {
+    margin: 20px 0;
+  }
 	margin: 0 auto $sp1 auto;
   padding: 0 20px 0 30px;
   @media #{$bm} {
@@ -203,7 +207,7 @@ a.btn-contact {
 	.item {
 		width: 33%;
 		float: left;
-    padding: 0 35px 0 0;
+    padding: 0 25px;
 		margin: 0;
 		@media #{$bm} {
 		    width: auto;
@@ -364,6 +368,9 @@ section {
       font-size: 34px;
       color: #111;
       font-weight: 600;
+      @media #{$bm} {
+        font-size: 22px;
+      }
     }
     h3 {
       font-weight: 100;
@@ -385,6 +392,9 @@ section {
     border: 0;
     color: #fff !important;
     background: #0002df;
+    @media #{$bm} {
+      padding: 6px 15px;
+    }
   }
 }
 
@@ -560,5 +570,50 @@ $ka-cookie-position: bottom-right !default;
 @media print {
   #cookie_banner-wrapper {
     display: none
+  }
+}
+
+#testimonial-list {
+  .wrapper {
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    .image-wrapper {
+      width: 170px;
+      height: 170px;
+      display: inline-block;
+      margin: 30px;
+      position: absolute;
+      @media #{$bm} {
+        width: 180px;
+        height: 180px;
+        position: relative;
+      }
+      img {
+        border-radius: 50%;
+      }
+    }
+    .text-wrapper {
+      display: inline-block;
+      vertical-align: top;
+      margin: 30px;
+      padding-left: 250px;
+      @media #{$bm} {
+        margin: 0;
+        padding-left: 0;
+      }
+      p {
+        font-size: 34px;
+        color: #111;
+        font-weight: 600;
+        @media #{$bm} {
+          font-size: 22px;
+        }
+      }
+      h3 {
+        font-weight: 100;
+        @media #{$bm} {
+          margin-bottom: 50px;
+        }
+      }
+    }
   }
 }

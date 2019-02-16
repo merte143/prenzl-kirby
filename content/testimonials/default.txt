@@ -1,0 +1,65 @@
+Headlinesettings: 
+
+----
+
+Title: Testimonials
+
+----
+
+Titlealternative: 
+
+----
+
+Toggletitle: 0
+
+----
+
+Togglesubnav: 0
+
+----
+
+Toggletopbar: 0
+
+----
+
+Titletopbar: 
+
+----
+
+Titletopbarmobile: 
+
+----
+
+Headlineslider: 
+
+----
+
+Covermedia: cimage
+
+----
+
+Slidersize: fullwidth
+
+----
+
+Covervideo: 
+
+----
+
+Coverimage: 
+
+----
+
+Sliderimages: 
+
+----
+
+Headlinecontent: 
+
+----
+
+Intro: 
+
+----
+
+Text: 

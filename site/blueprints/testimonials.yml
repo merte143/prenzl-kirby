@@ -1,0 +1,8 @@
+title: Testimonials
+
+pages: true
+
+fields:
+
+  testimonialsgroup:
+    extends: testimonials

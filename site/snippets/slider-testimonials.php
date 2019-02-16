@@ -11,7 +11,7 @@
                 <li class="glide__slide">
                     <div class="image-wrapper">
                         <?php if( $imageTestimonial1 = $page->images()->find($page->imageTestimonial1()) ): ?>
-                            <img src="<?= $imageTestimonial1->url() ?>" alt="" />
+                            <img src="<?= $imageTestimonial1->url() ?>" alt="customer" />
                         <?php endif; ?>
                     </div>
                     <div class="text-wrapper">
@@ -27,7 +27,7 @@
                 <li class="glide__slide">
                     <div class="image-wrapper">
                         <?php if( $imageTestimonial1 = $page->images()->find($page->imageTestimonial2()) ): ?>
-                            <img src="<?= $imageTestimonial1->url() ?>" alt="" />
+                            <img src="<?= $imageTestimonial1->url() ?>" alt="customer" />
                         <?php endif; ?>
                     </div>
                     <div class="text-wrapper">
